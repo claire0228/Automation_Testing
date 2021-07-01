@@ -13911,3 +13911,2313 @@ function selectNodeText(selectElement, event)
 20:57:05.121 [nioEventLoopGroup-3-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client disconnected
 20:57:05.122 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1624971413103
 20:57:05.598 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/diamola3_1/pup_test.feature
+23:26:14.583 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:26:20.182 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+23:26:23.717 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+23:26:23.967 [msedgedriver_1625153183547] DEBUG c.i.k.d.msedgedriver_1625153183547 - command: [src/test/java/examples/montante_3_1/msedgedriver.exe, --port=9515]
+23:26:24.832 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #0 for port to be ready - localhost:9515
+23:26:28.577 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #1 for port to be ready - localhost:9515
+23:26:30.858 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #2 for port to be ready - localhost:9515
+23:26:33.162 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #3 for port to be ready - localhost:9515
+23:26:35.465 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #4 for port to be ready - localhost:9515
+23:26:37.728 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #5 for port to be ready - localhost:9515
+23:26:40.017 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #6 for port to be ready - localhost:9515
+23:26:42.297 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #7 for port to be ready - localhost:9515
+23:26:44.587 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #8 for port to be ready - localhost:9515
+23:26:46.878 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #9 for port to be ready - localhost:9515
+23:26:49.177 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #10 for port to be ready - localhost:9515
+23:26:51.477 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #11 for port to be ready - localhost:9515
+23:26:53.767 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #12 for port to be ready - localhost:9515
+23:26:56.038 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #13 for port to be ready - localhost:9515
+23:26:58.317 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #14 for port to be ready - localhost:9515
+23:27:00.587 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #15 for port to be ready - localhost:9515
+23:27:02.885 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #16 for port to be ready - localhost:9515
+23:27:05.167 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #17 for port to be ready - localhost:9515
+23:27:07.457 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #18 for port to be ready - localhost:9515
+23:27:09.742 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #19 for port to be ready - localhost:9515
+23:27:12.027 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1625153183547 - poll attempt #20 for port to be ready - localhost:9515
+23:27:40.667 [msedgedriver_1625153183547-out] DEBUG c.i.k.d.msedgedriver_1625153183547 - Starting MSEdgeDriver 91.0.864.59 (4456b8ae30dd3a9a0eeae7791b651556ff804cc9) on port 9515
+23:27:40.668 [msedgedriver_1625153183547-out] DEBUG c.i.k.d.msedgedriver_1625153183547 - Only local connections are allowed.
+23:27:40.668 [msedgedriver_1625153183547-out] DEBUG c.i.k.d.msedgedriver_1625153183547 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+23:27:48.097 [msedgedriver_1625153183547-out] DEBUG c.i.k.d.msedgedriver_1625153183547 - MSEdgeDriver was started successfully.
+23:27:59.687 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 39
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"browserName":"edge"}}
+
+23:28:30.597 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30905 milliseconds for URL: http://localhost:9515/session
+23:28:30.602 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+java.net.SocketTimeoutException: Read timed out
+23:28:30.734 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - driver config / start failed: 
+java.net.SocketTimeoutException: Read timed out, options: {type=msedgedriver, executable=src/test/java/examples/montante_3_1/msedgedriver.exe, webDriverSession={capabilities={browserName=edge}}, target=null}
+com.intuit.karate.exception.KarateException: 
+java.net.SocketTimeoutException: Read timed out
+	at com.intuit.karate.core.ScenarioContext.clientInvoke(ScenarioContext.java:750)
+	at com.intuit.karate.core.ScenarioContext.method(ScenarioContext.java:798)
+	at com.intuit.karate.Http.post(Http.java:126)
+	at com.intuit.karate.Http.post(Http.java:131)
+	at com.intuit.karate.Http.post(Http.java:121)
+	at com.intuit.karate.driver.WebDriver.<init>(WebDriver.java:58)
+	at com.intuit.karate.driver.microsoft.MsEdgeDriver.<init>(MsEdgeDriver.java:39)
+	at com.intuit.karate.driver.microsoft.MsEdgeDriver.start(MsEdgeDriver.java:45)
+	at com.intuit.karate.driver.DriverOptions.start(DriverOptions.java:278)
+	at com.intuit.karate.core.ScenarioContext.driver(ScenarioContext.java:1041)
+	at com.intuit.karate.StepActions.driver(StepActions.java:391)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intuit.karate.core.Engine.executeStep(Engine.java:150)
+	at com.intuit.karate.core.ScenarioExecutionUnit.execute(ScenarioExecutionUnit.java:234)
+	at com.intuit.karate.core.ScenarioExecutionUnit.run(ScenarioExecutionUnit.java:319)
+	at java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1386)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+23:28:42.552 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/montante_3_1/About_Page.feature
+23:30:50.762 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:30:52.752 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+23:30:54.146 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 59134
+23:30:54.146 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9515 not available, will use: 59134
+23:30:54.251 [chromedriver_1625153453990] DEBUG c.i.k.d.chromedriver_1625153453990 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=59134, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chromedriver_1625153453990]
+23:30:54.281 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #0 for port to be ready - localhost:59134
+23:30:54.841 [chromedriver_1625153453990] ERROR com.intuit.karate.shell.Command - command error: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=59134, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chromedriver_1625153453990] - Cannot run program "C:/Program Files/Google/Chrome/Application/chromedriver.exe" (in directory "target\chromedriver_1625153453990"): CreateProcess error=2, The system cannot find the file specified
+23:30:57.726 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #1 for port to be ready - localhost:59134
+23:31:00.006 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #2 for port to be ready - localhost:59134
+23:31:02.286 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #3 for port to be ready - localhost:59134
+23:31:04.574 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #4 for port to be ready - localhost:59134
+23:31:06.857 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #5 for port to be ready - localhost:59134
+23:31:09.156 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #6 for port to be ready - localhost:59134
+23:31:11.466 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #7 for port to be ready - localhost:59134
+23:31:13.766 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #8 for port to be ready - localhost:59134
+23:31:16.046 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #9 for port to be ready - localhost:59134
+23:31:18.336 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #10 for port to be ready - localhost:59134
+23:31:20.606 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #11 for port to be ready - localhost:59134
+23:31:22.895 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #12 for port to be ready - localhost:59134
+23:31:25.196 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #13 for port to be ready - localhost:59134
+23:31:27.467 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #14 for port to be ready - localhost:59134
+23:31:29.751 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #15 for port to be ready - localhost:59134
+23:31:32.026 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #16 for port to be ready - localhost:59134
+23:31:34.316 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #17 for port to be ready - localhost:59134
+23:31:36.596 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #18 for port to be ready - localhost:59134
+23:31:38.877 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #19 for port to be ready - localhost:59134
+23:31:41.156 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153453990 - poll attempt #20 for port to be ready - localhost:59134
+23:31:48.106 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:59134/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:59134
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+23:31:52.266 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:59134 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4160 milliseconds for URL: http://localhost:59134/session
+23:31:52.266 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:59134 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+23:31:52.286 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - driver config / start failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:59134 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chromedriver.exe, target=null}
+com.intuit.karate.exception.KarateException: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:59134 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at com.intuit.karate.core.ScenarioContext.clientInvoke(ScenarioContext.java:750)
+	at com.intuit.karate.core.ScenarioContext.method(ScenarioContext.java:798)
+	at com.intuit.karate.Http.post(Http.java:126)
+	at com.intuit.karate.Http.post(Http.java:131)
+	at com.intuit.karate.Http.post(Http.java:121)
+	at com.intuit.karate.driver.WebDriver.<init>(WebDriver.java:58)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.<init>(ChromeWebDriver.java:42)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.start(ChromeWebDriver.java:49)
+	at com.intuit.karate.driver.DriverOptions.start(DriverOptions.java:272)
+	at com.intuit.karate.core.ScenarioContext.driver(ScenarioContext.java:1041)
+	at com.intuit.karate.StepActions.driver(StepActions.java:391)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intuit.karate.core.Engine.executeStep(Engine.java:150)
+	at com.intuit.karate.core.ScenarioExecutionUnit.execute(ScenarioExecutionUnit.java:234)
+	at com.intuit.karate.core.ScenarioExecutionUnit.run(ScenarioExecutionUnit.java:319)
+	at java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1386)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+23:31:53.601 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature
+23:33:37.286 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:33:38.661 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+23:33:39.901 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 64272
+23:33:39.902 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9515 not available, will use: 64272
+23:33:40.085 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #0 for port to be ready - localhost:64272
+23:33:40.097 [chromedriver_1625153619846] DEBUG c.i.k.d.chromedriver_1625153619846 - command: [chromedriver, --port=64272, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chromedriver_1625153619846]
+23:33:41.886 [chromedriver_1625153619846] ERROR com.intuit.karate.shell.Command - command error: [chromedriver, --port=64272, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chromedriver_1625153619846] - Cannot run program "chromedriver" (in directory "target\chromedriver_1625153619846"): CreateProcess error=2, The system cannot find the file specified
+23:33:44.171 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #1 for port to be ready - localhost:64272
+23:33:46.451 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #2 for port to be ready - localhost:64272
+23:33:48.736 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #3 for port to be ready - localhost:64272
+23:33:51.026 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #4 for port to be ready - localhost:64272
+23:33:53.326 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #5 for port to be ready - localhost:64272
+23:33:55.606 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #6 for port to be ready - localhost:64272
+23:33:57.899 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #7 for port to be ready - localhost:64272
+23:34:00.186 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #8 for port to be ready - localhost:64272
+23:34:02.471 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #9 for port to be ready - localhost:64272
+23:34:04.751 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #10 for port to be ready - localhost:64272
+23:34:07.036 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #11 for port to be ready - localhost:64272
+23:34:09.326 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #12 for port to be ready - localhost:64272
+23:34:11.596 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #13 for port to be ready - localhost:64272
+23:34:13.856 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #14 for port to be ready - localhost:64272
+23:34:16.145 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #15 for port to be ready - localhost:64272
+23:34:18.425 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #16 for port to be ready - localhost:64272
+23:34:20.713 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #17 for port to be ready - localhost:64272
+23:34:23.006 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #18 for port to be ready - localhost:64272
+23:34:25.286 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1625153619846 - poll attempt #19 for port to be ready - localhost:64272
+23:35:03.656 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:35:04.810 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+23:35:05.675 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+23:35:05.680 [chrome_1625153705670] DEBUG c.i.k.driver.chrome_1625153705670 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chrome_1625153705670, --disable-popup-blocking]
+23:35:05.690 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #0 for port to be ready - localhost:9222
+23:35:08.090 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #1 for port to be ready - localhost:9222
+23:35:10.386 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #2 for port to be ready - localhost:9222
+23:35:12.655 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #3 for port to be ready - localhost:9222
+23:35:14.956 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #4 for port to be ready - localhost:9222
+23:35:17.245 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #5 for port to be ready - localhost:9222
+23:35:19.535 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #6 for port to be ready - localhost:9222
+23:35:21.835 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #7 for port to be ready - localhost:9222
+23:35:24.116 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #8 for port to be ready - localhost:9222
+23:35:26.395 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #9 for port to be ready - localhost:9222
+23:35:28.685 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #10 for port to be ready - localhost:9222
+23:35:30.964 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #11 for port to be ready - localhost:9222
+23:35:33.265 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - poll attempt #12 for port to be ready - localhost:9222
+23:35:34.950 [chrome_1625153705670-out] DEBUG c.i.k.driver.chrome_1625153705670 - 
+23:35:34.950 [chrome_1625153705670-out] DEBUG c.i.k.driver.chrome_1625153705670 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/270cde94-b624-4fb7-bbb6-6d4cbba7ee78
+23:36:05.989 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+23:36:10.220 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3954.23
+1 < 200
+1 < Content-Length: 5294
+1 < Content-Type: text/html; charset=UTF-8
+<!doctype html>
+<html lang="en">
+<title>Inspectable pages</title>
+<meta name="referrer" content="no-referrer">
+<style>
+body {
+  color: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-shadow: rgba(255, 255, 255, 0.496094) 0px 1px 0px;
+}
+
+#caption {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  height: 20px;
+  text-align: left;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.item {
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 10px;
+  transition-property: background-color, border-color;
+  transition: background-color 0.15s, 0.15s;
+  transition-delay: 0ms, 0ms;
+}
+
+.item:not(.connected):hover {
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(110, 116, 128, 1);
+  color: black;
+}
+
+.item.connected:hover {
+  border-color: rgba(184, 184, 184, 1);
+  color: rgb(110, 116, 128);
+}
+
+.item.custom {
+    cursor: pointer;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.title, .subtitle, .custom-url {
+  font-size: 13px;
+  margin: 4px 0px 0px 6px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.title {
+  background-repeat: no-repeat;
+  background-size: 16px;
+  font-size: 15px;
+}
+
+.custom-url {
+  display: flex;
+}
+
+.custom-url-label {
+  flex: 0 0 auto;
+}
+
+.custom-url-value {
+  font-family: monospace;
+  margin-left: 1em;
+}
+
+</style>
+
+<script>
+
+function onLoad() {
+  var tabsListRequest = new XMLHttpRequest();
+  tabsListRequest.open('GET', '/json/list', true);
+  tabsListRequest.onreadystatechange = onReady;
+  tabsListRequest.send();
+}
+
+function onReady() {
+  if(this.readyState == 4 && this.status == 200) {
+    if(this.response != null)
+      var responseJSON = JSON.parse(this.response);
+      for (var i = 0; i < responseJSON.length; ++i)
+        appendItem(responseJSON[i]);
+  }
+}
+
+function onBlur(event) {
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function onFocus(selectElement, event) {
+  selectNodeText(selectElement, event);
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function customFrontendURL(url) {
+  if (!url || !window.location.hash)
+    return null;
+
+  var hashParams = new URLSearchParams(location.hash.substring(1));
+  if (!hashParams.get("custom"))
+    return null;
+
+  var searchIndex = url.indexOf("?");
+  if (searchIndex === -1)
+    return null;
+  var originalParams = url.substring(searchIndex + 1);
+  if (hashParams.get("experiments"))
+    originalParams += "&experiments=true";
+
+  return "devtools://devtools/custom/inspector.html?" + originalParams;
+}
+
+function appendItem(item_object) {
+  var item_element;
+  var customURL = customFrontendURL(item_object.devtoolsFrontendUrl);
+  if (customURL) {
+    item_element = document.createElement('div');
+    item_element.title = item_object.title;
+    item_element.className = 'custom';
+  } else if (item_object.devtoolsFrontendUrl) {
+    item_element = document.createElement('a');
+    item_element.href = item_object.devtoolsFrontendUrl;
+    item_element.title = item_object.title;
+  } else {
+    item_element = document.createElement('div');
+    item_element.className = 'connected';
+    item_element.title = 'The tab already has an active debug session';
+  }
+  item_element.classList.add('item');
+
+  var description = document.createElement('div');
+  description.className = 'description';
+
+  var title = document.createElement('div');
+  title.className = 'title';
+  title.textContent = item_object.description || item_object.title;
+  if (item_object.faviconUrl) {
+    title.style.backgroundImage = 'url(' + item_object.faviconUrl + ')';
+  }
+  description.appendChild(title);
+
+  var subtitle = document.createElement('div');
+  subtitle.className = 'subtitle';
+  subtitle.textContent = (item_object.url || '').substring(0, 300);
+  description.appendChild(subtitle);
+
+  if (customURL) {
+    var urlContainer = document.createElement('div');
+    urlContainer.classList.add("custom-url");
+    var urlLabel = document.createElement('div');
+    urlLabel.classList.add("custom-url-label");
+    urlLabel.textContent = "Click to copy URL:";
+    urlContainer.appendChild(urlLabel);
+    var urlValue = document.createElement('div');
+    urlValue.classList.add("custom-url-value");
+    urlValue.textContent = customURL;
+    urlValue.tabIndex = 0;
+    urlValue.addEventListener('blur', onBlur);
+    urlValue.addEventListener('focus', event => onFocus(urlValue, event));
+    urlContainer.appendChild(urlValue);
+    description.appendChild(urlContainer);
+    item_element.addEventListener('click', selectNodeText.bind(null, urlValue));
+  }
+
+  item_element.appendChild(description);
+
+  document.getElementById('items').appendChild(item_element);
+}
+
+function selectNodeText(selectElement, event)
+{
+  var selection = window.getSelection();
+  if (!selection.isCollapsed)
+    return;
+  var range = document.createRange();
+  range.selectNode(selectElement);
+  selection.removeAllRanges();
+  selection.addRange(range);
+  event.stopPropagation();
+  event.preventDefault();
+}
+</script>
+</head>
+<body onload='onLoad()'>
+  <div role='main'>
+    <div id='caption' role='heading' aria-level='1'>Inspectable pages</div>
+    <hr>
+    <div id='items'>
+    </div>
+  </div>
+</body>
+</html>
+
+
+23:36:11.420 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+23:36:11.420 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 35730 ms - http://localhost:9222
+23:36:11.430 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+23:36:14.145 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2715.62
+1 < 200
+1 < Content-Length: 2220
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/CB18492751E85B021382DED6585A868E",
+   "id": "CB18492751E85B021382DED6585A868E",
+   "title": "CryptoTokenExtension",
+   "type": "background_page",
+   "url": "chrome-extension://kmendfapggjehodndflmmgagdbamhnfd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/CB18492751E85B021382DED6585A868E"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/7C57F31B5FD3CD9595FDBB212B607B67",
+   "id": "7C57F31B5FD3CD9595FDBB212B607B67",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/7C57F31B5FD3CD9595FDBB212B607B67"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/60C8CE6FB40E0F777A8F274195CD2A1A",
+   "id": "60C8CE6FB40E0F777A8F274195CD2A1A",
+   "title": "Feedback",
+   "type": "background_page",
+   "url": "chrome-extension://gfdkimpbcpahaombhbimeihdjnejgicl/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/60C8CE6FB40E0F777A8F274195CD2A1A"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/0AAFD7FED0A2DC7985A918BF77622CF5",
+   "id": "0AAFD7FED0A2DC7985A918BF77622CF5",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/0AAFD7FED0A2DC7985A918BF77622CF5"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/90A91275B62F295161B1F741FDCCC19B",
+   "id": "90A91275B62F295161B1F741FDCCC19B",
+   "title": "chrome://welcome/?variant=everywhere",
+   "type": "page",
+   "url": "chrome://welcome/?variant=everywhere",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/90A91275B62F295161B1F741FDCCC19B"
+} ]
+
+
+23:36:14.175 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - root frame id: 90A91275B62F295161B1F741FDCCC19B
+23:36:34.516 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client connected
+23:36:34.520 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Target.activateTarget","params":{"targetId":"90A91275B62F295161B1F741FDCCC19B"},"id":1}
+23:36:35.815 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":1,"result":{}}
+23:36:35.815 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Page.enable","id":2}
+23:36:36.175 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":2,"result":{}}
+23:36:36.175 [chrome_1625153705670-out] DEBUG c.i.k.driver.chrome_1625153705670 - [9476:4584:0701/233636.175:ERROR:device_event_log_impl.cc(214)] [23:36:36.177] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+23:36:36.185 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Runtime.enable","id":3}
+23:36:36.365 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","uniqueId":"-8520050358713097175.404144870465103872","auxData":{"isDefault":true,"type":"default","frameId":"90A91275B62F295161B1F741FDCCC19B"}}}}
+23:36:36.365 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":3,"result":{}}
+23:36:36.370 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Target.setAutoAttach","params":{"autoAttach":true,"waitForDebuggerOnStart":false,"flatten":true},"id":4}
+23:36:36.465 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":4,"result":{}}
+23:36:36.465 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Browser.getWindowForTarget","params":{"targetId":"90A91275B62F295161B1F741FDCCC19B"},"id":5}
+23:36:36.515 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":5,"result":{"windowId":1,"bounds":{"left":10,"top":10,"width":1050,"height":708,"windowState":"normal"}}}
+23:36:38.173 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Page.navigate","params":{"url":"https:\/\/www.google.com\/"},"id":6}
+23:36:41.110 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":6,"result":{"frameId":"90A91275B62F295161B1F741FDCCC19B","loaderId":"3217FEB6FD12514AE3886092A0B9CB01"}}
+23:36:41.410 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Runtime.executionContextsCleared","params":{}}
+23:36:41.640 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.frameStartedLoading","params":{"frameId":"90A91275B62F295161B1F741FDCCC19B"}}
+23:36:42.765 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Runtime.executionContextsCleared","params":{}}
+23:36:42.765 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"90A91275B62F295161B1F741FDCCC19B","loaderId":"3217FEB6FD12514AE3886092A0B9CB01","url":"https://www.google.com/","domainAndRegistry":"google.com","securityOrigin":"https://www.google.com","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+23:36:42.770 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.google.com","name":"","uniqueId":"-974083035890368874.4462528372660671152","auxData":{"isDefault":true,"type":"default","frameId":"90A91275B62F295161B1F741FDCCC19B"}}}}
+23:36:48.490 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.navigatedWithinDocument","params":{"frameId":"90A91275B62F295161B1F741FDCCC19B","url":"https://www.google.com/"}}
+23:36:48.495 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.domContentEventFired","params":{"timestamp":1776690.67429}}
+23:36:49.457 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Runtime.evaluate","params":{"expression":"var e = document.querySelector(\"input[name=q]\"); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}","returnByValue":true},"id":7}
+23:36:50.025 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":7,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+23:36:50.065 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"k","windowsVirtualKeyCode":75},"id":8}
+23:36:51.265 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.loadEventFired","params":{"timestamp":1776694.051488}}
+23:36:51.265 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"90A91275B62F295161B1F741FDCCC19B"}}
+23:36:51.480 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":8,"result":{}}
+23:36:51.480 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"k","windowsVirtualKeyCode":75},"id":9}
+23:36:53.020 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":9,"result":{}}
+23:36:53.025 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"k","windowsVirtualKeyCode":75},"id":10}
+23:36:53.105 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":10,"result":{}}
+23:36:53.105 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"a","windowsVirtualKeyCode":65},"id":11}
+23:36:53.325 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":11,"result":{}}
+23:36:53.325 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"a","windowsVirtualKeyCode":65},"id":12}
+23:36:54.200 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":12,"result":{}}
+23:36:54.205 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"a","windowsVirtualKeyCode":65},"id":13}
+23:36:54.231 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":13,"result":{}}
+23:36:54.235 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"r","windowsVirtualKeyCode":82},"id":14}
+23:36:54.240 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":14,"result":{}}
+23:36:54.255 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"r","windowsVirtualKeyCode":82},"id":15}
+23:36:54.275 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":15,"result":{}}
+23:36:54.275 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"r","windowsVirtualKeyCode":82},"id":16}
+23:36:54.280 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":16,"result":{}}
+23:36:54.285 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"a","windowsVirtualKeyCode":65},"id":17}
+23:36:54.290 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":17,"result":{}}
+23:36:54.300 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"a","windowsVirtualKeyCode":65},"id":18}
+23:36:54.325 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":18,"result":{}}
+23:36:54.325 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"a","windowsVirtualKeyCode":65},"id":19}
+23:36:54.333 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":19,"result":{}}
+23:36:54.335 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"t","windowsVirtualKeyCode":84},"id":20}
+23:36:54.343 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":20,"result":{}}
+23:36:54.345 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"t","windowsVirtualKeyCode":84},"id":21}
+23:36:54.400 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":21,"result":{}}
+23:36:54.403 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"t","windowsVirtualKeyCode":84},"id":22}
+23:36:54.470 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":22,"result":{}}
+23:36:54.474 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"e","windowsVirtualKeyCode":69},"id":23}
+23:36:54.480 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":23,"result":{}}
+23:36:54.495 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"e","windowsVirtualKeyCode":69},"id":24}
+23:36:54.517 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":24,"result":{}}
+23:36:54.520 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"e","windowsVirtualKeyCode":69},"id":25}
+23:36:54.525 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":25,"result":{}}
+23:36:54.530 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":" ","windowsVirtualKeyCode":32},"id":26}
+23:36:54.537 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":26,"result":{}}
+23:36:54.540 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":" ","windowsVirtualKeyCode":32},"id":27}
+23:36:54.730 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":27,"result":{}}
+23:36:54.741 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":" ","windowsVirtualKeyCode":32},"id":28}
+23:36:54.800 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":28,"result":{}}
+23:36:54.843 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"d","windowsVirtualKeyCode":68},"id":29}
+23:36:54.895 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":29,"result":{}}
+23:36:54.902 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"d","windowsVirtualKeyCode":68},"id":30}
+23:36:55.105 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":30,"result":{}}
+23:36:55.130 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"d","windowsVirtualKeyCode":68},"id":31}
+23:36:55.140 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":31,"result":{}}
+23:36:55.140 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"s","windowsVirtualKeyCode":83},"id":32}
+23:36:55.145 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":32,"result":{}}
+23:36:55.145 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"s","windowsVirtualKeyCode":83},"id":33}
+23:36:55.155 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":33,"result":{}}
+23:36:55.160 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"s","windowsVirtualKeyCode":83},"id":34}
+23:36:55.165 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":34,"result":{}}
+23:36:55.165 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"l","windowsVirtualKeyCode":76},"id":35}
+23:36:55.170 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":35,"result":{}}
+23:36:55.175 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"l","windowsVirtualKeyCode":76},"id":36}
+23:36:55.185 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":36,"result":{}}
+23:36:55.200 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"l","windowsVirtualKeyCode":76},"id":37}
+23:36:55.205 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":37,"result":{}}
+23:36:55.447 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Runtime.evaluate","params":{"expression":"document.querySelector(\"input[name=btnI]\").click()","returnByValue":true},"id":38}
+23:36:56.415 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":38,"result":{"result":{"type":"undefined"}}}
+23:36:56.415 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"90A91275B62F295161B1F741FDCCC19B","delay":0,"reason":"formSubmissionGet","url":"https://www.google.com/search?q=karate+dsl&btnI=I%27m+Feeling+Lucky&source=hp&ei=CuHdYKCOHL3fmAWE147wDw&iflsig=AINFCbYAAAAAYN3vGlbcwxfQAWdfjXU3kuMbPFSM1ibA&ved=0ahUKEwigu-fYmcLxAhW9L6YKHYSrA_4Q19QECAg"}}
+23:36:56.420 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.frameRequestedNavigation","params":{"frameId":"90A91275B62F295161B1F741FDCCC19B","reason":"formSubmissionGet","url":"https://www.google.com/search?q=karate+dsl&btnI=I%27m+Feeling+Lucky&source=hp&ei=CuHdYKCOHL3fmAWE147wDw&iflsig=AINFCbYAAAAAYN3vGlbcwxfQAWdfjXU3kuMbPFSM1ibA&ved=0ahUKEwigu-fYmcLxAhW9L6YKHYSrA_4Q19QECAg","disposition":"currentTab"}}
+23:36:56.485 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.frameStartedLoading","params":{"frameId":"90A91275B62F295161B1F741FDCCC19B"}}
+23:36:56.591 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"90A91275B62F295161B1F741FDCCC19B"}}
+23:36:56.765 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #1
+23:36:59.799 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #2
+23:37:01.245 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Runtime.executionContextsCleared","params":{}}
+23:37:01.250 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.frameStartedLoading","params":{"frameId":"90A91275B62F295161B1F741FDCCC19B"}}
+23:37:01.595 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Runtime.executionContextsCleared","params":{}}
+23:37:01.605 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"90A91275B62F295161B1F741FDCCC19B","loaderId":"EE131CB951AC66DFAD84C60350C2EACF","url":"https://github.com/intuit/karate","domainAndRegistry":"github.com","securityOrigin":"https://github.com","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+23:37:01.613 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://github.com","name":"","uniqueId":"-4135020562118881219.4519305292771178468","auxData":{"isDefault":true,"type":"default","frameId":"90A91275B62F295161B1F741FDCCC19B"}}}}
+23:37:02.815 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625153705670 - >> {"method":"Target.closeTarget","params":{"targetId":"90A91275B62F295161B1F741FDCCC19B"},"id":39}
+23:37:02.822 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625153705670 - << {"id":39,"result":{"success":true}}
+23:37:02.913 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1625153705670
+23:37:02.915 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client disconnected
+23:37:07.820 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature
+23:50:31.392 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:50:33.478 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+23:50:34.912 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+23:50:35.047 [chrome_1625154634817] DEBUG c.i.k.driver.chrome_1625154634817 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chrome_1625154634817, --disable-popup-blocking]
+23:50:35.217 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - poll attempt #0 for port to be ready - localhost:9222
+23:50:38.249 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - poll attempt #1 for port to be ready - localhost:9222
+23:50:40.812 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - poll attempt #2 for port to be ready - localhost:9222
+23:50:43.112 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - poll attempt #3 for port to be ready - localhost:9222
+23:50:45.392 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - poll attempt #4 for port to be ready - localhost:9222
+23:50:47.682 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - poll attempt #5 for port to be ready - localhost:9222
+23:50:49.962 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - poll attempt #6 for port to be ready - localhost:9222
+23:50:52.312 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - poll attempt #7 for port to be ready - localhost:9222
+23:50:54.600 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - poll attempt #8 for port to be ready - localhost:9222
+23:50:56.882 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - poll attempt #9 for port to be ready - localhost:9222
+23:50:57.437 [chrome_1625154634817-out] DEBUG c.i.k.driver.chrome_1625154634817 - 
+23:50:57.437 [chrome_1625154634817-out] DEBUG c.i.k.driver.chrome_1625154634817 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/e76ce5f1-01ed-467d-9b0e-969cc7165302
+23:51:16.532 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+23:51:24.682 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 7997.90
+1 < 200
+1 < Content-Length: 5294
+1 < Content-Type: text/html; charset=UTF-8
+<!doctype html>
+<html lang="en">
+<title>Inspectable pages</title>
+<meta name="referrer" content="no-referrer">
+<style>
+body {
+  color: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-shadow: rgba(255, 255, 255, 0.496094) 0px 1px 0px;
+}
+
+#caption {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  height: 20px;
+  text-align: left;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.item {
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 10px;
+  transition-property: background-color, border-color;
+  transition: background-color 0.15s, 0.15s;
+  transition-delay: 0ms, 0ms;
+}
+
+.item:not(.connected):hover {
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(110, 116, 128, 1);
+  color: black;
+}
+
+.item.connected:hover {
+  border-color: rgba(184, 184, 184, 1);
+  color: rgb(110, 116, 128);
+}
+
+.item.custom {
+    cursor: pointer;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.title, .subtitle, .custom-url {
+  font-size: 13px;
+  margin: 4px 0px 0px 6px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.title {
+  background-repeat: no-repeat;
+  background-size: 16px;
+  font-size: 15px;
+}
+
+.custom-url {
+  display: flex;
+}
+
+.custom-url-label {
+  flex: 0 0 auto;
+}
+
+.custom-url-value {
+  font-family: monospace;
+  margin-left: 1em;
+}
+
+</style>
+
+<script>
+
+function onLoad() {
+  var tabsListRequest = new XMLHttpRequest();
+  tabsListRequest.open('GET', '/json/list', true);
+  tabsListRequest.onreadystatechange = onReady;
+  tabsListRequest.send();
+}
+
+function onReady() {
+  if(this.readyState == 4 && this.status == 200) {
+    if(this.response != null)
+      var responseJSON = JSON.parse(this.response);
+      for (var i = 0; i < responseJSON.length; ++i)
+        appendItem(responseJSON[i]);
+  }
+}
+
+function onBlur(event) {
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function onFocus(selectElement, event) {
+  selectNodeText(selectElement, event);
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function customFrontendURL(url) {
+  if (!url || !window.location.hash)
+    return null;
+
+  var hashParams = new URLSearchParams(location.hash.substring(1));
+  if (!hashParams.get("custom"))
+    return null;
+
+  var searchIndex = url.indexOf("?");
+  if (searchIndex === -1)
+    return null;
+  var originalParams = url.substring(searchIndex + 1);
+  if (hashParams.get("experiments"))
+    originalParams += "&experiments=true";
+
+  return "devtools://devtools/custom/inspector.html?" + originalParams;
+}
+
+function appendItem(item_object) {
+  var item_element;
+  var customURL = customFrontendURL(item_object.devtoolsFrontendUrl);
+  if (customURL) {
+    item_element = document.createElement('div');
+    item_element.title = item_object.title;
+    item_element.className = 'custom';
+  } else if (item_object.devtoolsFrontendUrl) {
+    item_element = document.createElement('a');
+    item_element.href = item_object.devtoolsFrontendUrl;
+    item_element.title = item_object.title;
+  } else {
+    item_element = document.createElement('div');
+    item_element.className = 'connected';
+    item_element.title = 'The tab already has an active debug session';
+  }
+  item_element.classList.add('item');
+
+  var description = document.createElement('div');
+  description.className = 'description';
+
+  var title = document.createElement('div');
+  title.className = 'title';
+  title.textContent = item_object.description || item_object.title;
+  if (item_object.faviconUrl) {
+    title.style.backgroundImage = 'url(' + item_object.faviconUrl + ')';
+  }
+  description.appendChild(title);
+
+  var subtitle = document.createElement('div');
+  subtitle.className = 'subtitle';
+  subtitle.textContent = (item_object.url || '').substring(0, 300);
+  description.appendChild(subtitle);
+
+  if (customURL) {
+    var urlContainer = document.createElement('div');
+    urlContainer.classList.add("custom-url");
+    var urlLabel = document.createElement('div');
+    urlLabel.classList.add("custom-url-label");
+    urlLabel.textContent = "Click to copy URL:";
+    urlContainer.appendChild(urlLabel);
+    var urlValue = document.createElement('div');
+    urlValue.classList.add("custom-url-value");
+    urlValue.textContent = customURL;
+    urlValue.tabIndex = 0;
+    urlValue.addEventListener('blur', onBlur);
+    urlValue.addEventListener('focus', event => onFocus(urlValue, event));
+    urlContainer.appendChild(urlValue);
+    description.appendChild(urlContainer);
+    item_element.addEventListener('click', selectNodeText.bind(null, urlValue));
+  }
+
+  item_element.appendChild(description);
+
+  document.getElementById('items').appendChild(item_element);
+}
+
+function selectNodeText(selectElement, event)
+{
+  var selection = window.getSelection();
+  if (!selection.isCollapsed)
+    return;
+  var range = document.createRange();
+  range.selectNode(selectElement);
+  selection.removeAllRanges();
+  selection.addRange(range);
+  event.stopPropagation();
+  event.preventDefault();
+}
+</script>
+</head>
+<body onload='onLoad()'>
+  <div role='main'>
+    <div id='caption' role='heading' aria-level='1'>Inspectable pages</div>
+    <hr>
+    <div id='items'>
+    </div>
+  </div>
+</body>
+</html>
+
+
+23:51:28.197 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+23:51:28.197 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 30270 ms - http://localhost:9222
+23:51:28.217 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+23:51:30.829 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2611.99
+1 < 200
+1 < Content-Length: 2184
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/E90872A1F4DFCE595215088DD4AA2902",
+   "id": "E90872A1F4DFCE595215088DD4AA2902",
+   "title": "CryptoTokenExtension",
+   "type": "background_page",
+   "url": "chrome-extension://kmendfapggjehodndflmmgagdbamhnfd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/E90872A1F4DFCE595215088DD4AA2902"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/A47163A2B507B7472193D6DF273E3972",
+   "id": "A47163A2B507B7472193D6DF273E3972",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/A47163A2B507B7472193D6DF273E3972"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/CBCFCEFC1CD769357B1E4BEC83F57372",
+   "id": "CBCFCEFC1CD769357B1E4BEC83F57372",
+   "title": "Feedback",
+   "type": "background_page",
+   "url": "chrome-extension://gfdkimpbcpahaombhbimeihdjnejgicl/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/CBCFCEFC1CD769357B1E4BEC83F57372"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/CDFC00B04217E56894C28091ECD84C79",
+   "id": "CDFC00B04217E56894C28091ECD84C79",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/CDFC00B04217E56894C28091ECD84C79"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/54538176164405F034A1A81DBDC9FB53",
+   "id": "54538176164405F034A1A81DBDC9FB53",
+   "title": "",
+   "type": "page",
+   "url": "chrome://welcome/?variant=everywhere",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/54538176164405F034A1A81DBDC9FB53"
+} ]
+
+
+23:51:30.842 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - root frame id: 54538176164405F034A1A81DBDC9FB53
+23:51:53.567 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client connected
+23:51:53.572 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - >> {"method":"Target.activateTarget","params":{"targetId":"54538176164405F034A1A81DBDC9FB53"},"id":1}
+23:51:54.201 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"id":1,"result":{}}
+23:51:54.217 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - >> {"method":"Page.enable","id":2}
+23:51:56.367 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"id":2,"result":{}}
+23:51:56.367 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - >> {"method":"Runtime.enable","id":3}
+23:51:56.570 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","uniqueId":"-2924071977416087235.-81421412683845381","auxData":{"isDefault":true,"type":"default","frameId":"54538176164405F034A1A81DBDC9FB53"}}}}
+23:51:56.570 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"id":3,"result":{}}
+23:51:56.578 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - >> {"method":"Target.setAutoAttach","params":{"autoAttach":true,"waitForDebuggerOnStart":false,"flatten":true},"id":4}
+23:51:56.952 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.loadEventFired","params":{"timestamp":1777599.990693}}
+23:51:56.952 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"54538176164405F034A1A81DBDC9FB53"}}
+23:51:57.802 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"id":4,"result":{}}
+23:51:57.802 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - >> {"method":"Browser.getWindowForTarget","params":{"targetId":"54538176164405F034A1A81DBDC9FB53"},"id":5}
+23:51:57.907 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"id":5,"result":{"windowId":1,"bounds":{"left":10,"top":10,"width":1050,"height":708,"windowState":"normal"}}}
+23:51:57.982 [chrome_1625154634817-out] DEBUG c.i.k.driver.chrome_1625154634817 - [14612:14764:0701/235157.982:ERROR:device_event_log_impl.cc(214)] [23:51:57.984] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+23:51:58.962 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - >> {"method":"Page.navigate","params":{"url":"https:\/\/www.pup.edu.ph"},"id":6}
+23:52:01.253 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"id":6,"result":{"frameId":"54538176164405F034A1A81DBDC9FB53","loaderId":"AF1DEF63650C6F15041E928934735487"}}
+23:52:01.582 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Runtime.executionContextsCleared","params":{}}
+23:52:01.672 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStartedLoading","params":{"frameId":"54538176164405F034A1A81DBDC9FB53"}}
+23:52:02.432 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Runtime.executionContextsCleared","params":{}}
+23:52:02.437 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"54538176164405F034A1A81DBDC9FB53","loaderId":"AF1DEF63650C6F15041E928934735487","url":"https://www.pup.edu.ph/","domainAndRegistry":"pup.edu.ph","securityOrigin":"https://www.pup.edu.ph","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+23:52:02.437 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.pup.edu.ph","name":"","uniqueId":"-2934473131685286463.-602382383357522899","auxData":{"isDefault":true,"type":"default","frameId":"54538176164405F034A1A81DBDC9FB53"}}}}
+23:52:10.317 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameAttached","params":{"frameId":"DEBA35AC73D3717AE7850C7EB0A820CB","parentFrameId":"54538176164405F034A1A81DBDC9FB53"}}
+23:52:10.427 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStartedLoading","params":{"frameId":"DEBA35AC73D3717AE7850C7EB0A820CB"}}
+23:52:11.237 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Target.attachedToTarget","params":{"sessionId":"B459D09107A5A8FBD2730EB9D72FD6C8","targetInfo":{"targetId":"DEBA35AC73D3717AE7850C7EB0A820CB","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"0898BF6BD92DF979E9055680F31E75F5"},"waitingForDebugger":false}}
+23:52:11.942 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"DEBA35AC73D3717AE7850C7EB0A820CB"}}
+23:52:12.162 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Target.detachedFromTarget","params":{"sessionId":"B459D09107A5A8FBD2730EB9D72FD6C8","targetId":"DEBA35AC73D3717AE7850C7EB0A820CB"}}
+23:52:12.167 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameDetached","params":{"frameId":"DEBA35AC73D3717AE7850C7EB0A820CB","reason":"remove"}}
+23:52:12.167 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameAttached","params":{"frameId":"F24805CB4BF31A6867E60FFB9C8A574A","parentFrameId":"54538176164405F034A1A81DBDC9FB53","stack":{"callFrames":[{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25691},{"functionName":"domManip","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":27980},{"functionName":"append","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25580},{"functionName":"wrapAll","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":533},{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":825},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":3,"columnNumber":5346},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","l ...
+23:52:12.172 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStartedLoading","params":{"frameId":"F24805CB4BF31A6867E60FFB9C8A574A"}}
+23:52:12.172 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"F24805CB4BF31A6867E60FFB9C8A574A"}}
+23:52:12.257 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameDetached","params":{"frameId":"F24805CB4BF31A6867E60FFB9C8A574A","reason":"remove"}}
+23:52:12.257 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameAttached","params":{"frameId":"DC7D0BCA18A4EBFF1F01595CD8C40189","parentFrameId":"54538176164405F034A1A81DBDC9FB53","stack":{"callFrames":[{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25691},{"functionName":"domManip","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":27980},{"functionName":"append","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25580},{"functionName":"wrapAll","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":533},{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":723},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":3,"columnNumber":5346},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","l ...
+23:52:12.257 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStartedLoading","params":{"frameId":"DC7D0BCA18A4EBFF1F01595CD8C40189"}}
+23:52:12.481 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Target.attachedToTarget","params":{"sessionId":"295B33DF2087967CE7BDDD0AD04E13C1","targetInfo":{"targetId":"DC7D0BCA18A4EBFF1F01595CD8C40189","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"0898BF6BD92DF979E9055680F31E75F5"},"waitingForDebugger":false}}
+23:52:13.756 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.domContentEventFired","params":{"timestamp":1777616.60054}}
+23:52:26.142 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"DC7D0BCA18A4EBFF1F01595CD8C40189"}}
+23:52:26.167 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameDetached","params":{"frameId":"DC7D0BCA18A4EBFF1F01595CD8C40189","reason":"swap"}}
+23:52:27.473 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - >> {"method":"Runtime.evaluate","params":{"expression":"document.evaluate(\"\/\/a[normalize-space(text())='About PUP']\", document, null, 9, null).singleNodeValue.getBoundingClientRect()"},"id":7}
+23:52:31.922 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"id":7,"result":{"result":{"type":"object","className":"DOMRect","description":"DOMRect","objectId":"4014893036516757899.1.1"}}}
+23:52:31.947 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - >> {"method":"Runtime.getProperties","params":{"objectId":"4014893036516757899.1.1","accessorPropertiesOnly":true},"id":8}
+23:52:32.152 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameAttached","params":{"frameId":"D879C82C8E84B83A0AB9A2E7D4013E3A","parentFrameId":"54538176164405F034A1A81DBDC9FB53","stack":{"callFrames":[{"functionName":"load","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":36889},{"functionName":"load","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":22027},{"functionName":"","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":17389},{"functionName":"o","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":65857},{"functionName":"","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":17374},{"functionName":"i","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":627},{"functionName":"","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":2762},{"functionName":" ...
+23:52:32.159 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStartedLoading","params":{"frameId":"D879C82C8E84B83A0AB9A2E7D4013E3A"}}
+23:52:32.447 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"id":8,"result":{"result":[{"name":"x","value":{"type":"number","value":93,"description":"93"},"writable":false,"configurable":true,"enumerable":true,"isOwn":true},{"name":"y","value":{"type":"number","value":121,"description":"121"},"writable":false,"configurable":true,"enumerable":true,"isOwn":true},{"name":"width","value":{"type":"number","value":128,"description":"128"},"writable":false,"configurable":true,"enumerable":true,"isOwn":true},{"name":"height","value":{"type":"number","value":30,"description":"30"},"writable":false,"configurable":true,"enumerable":true,"isOwn":true},{"name":"top","value":{"type":"number","value":121,"description":"121"},"writable":false,"configurable":true,"enumerable":true,"isOwn":true},{"name":"right","value":{"type":"number","value":221,"description":"221"},"writable":false,"configurable":true,"enumerable":true,"isOwn":true},{"name":"bottom","value":{"type":"number","value":151,"description":"151"},"writable":false,"configurable":true,"enumerable":true,"isOwn":true},{"name" ...
+23:52:32.457 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - >> {"method":"Input.dispatchMouseEvent","params":{"type":"mouseMoved","x":93,"y":121},"id":9}
+23:52:32.514 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameAttached","params":{"frameId":"3E5872DAC540300284457D7EE8E73CD6","parentFrameId":"54538176164405F034A1A81DBDC9FB53","stack":{"callFrames":[{"functionName":"","scriptId":"21","url":"https://www.pup.edu.ph/resources/gwt/footer.js?go=1","lineNumber":15,"columnNumber":13},{"functionName":"","scriptId":"21","url":"https://www.pup.edu.ph/resources/gwt/footer.js?go=1","lineNumber":26,"columnNumber":1}]}}}
+23:52:32.517 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStartedLoading","params":{"frameId":"3E5872DAC540300284457D7EE8E73CD6"}}
+23:52:32.517 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"https://www.pup.edu.ph","name":"","uniqueId":"-3273493537381589511.8988073291538510405","auxData":{"isDefault":true,"type":"default","frameId":"3E5872DAC540300284457D7EE8E73CD6"}}}}
+23:52:33.324 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"id":9,"result":{}}
+23:52:33.508 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Target.attachedToTarget","params":{"sessionId":"94E429D1980971675D344A94DCB1987F","targetInfo":{"targetId":"D879C82C8E84B83A0AB9A2E7D4013E3A","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"0898BF6BD92DF979E9055680F31E75F5"},"waitingForDebugger":false}}
+23:52:34.207 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - >> {"method":"Runtime.evaluate","params":{"expression":"document.evaluate(\"\/\/a[normalize-space(text())='University Profile']\", document, null, 9, null).singleNodeValue.click()","returnByValue":true},"id":10}
+23:52:34.466 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"54538176164405F034A1A81DBDC9FB53","delay":0,"reason":"anchorClick","url":"https://www.pup.edu.ph/about/"}}
+23:52:34.466 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameRequestedNavigation","params":{"frameId":"54538176164405F034A1A81DBDC9FB53","reason":"anchorClick","url":"https://www.pup.edu.ph/about/","disposition":"currentTab"}}
+23:52:34.482 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"54538176164405F034A1A81DBDC9FB53"}}
+23:52:34.482 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"id":10,"result":{"result":{"type":"undefined"}}}
+23:52:34.482 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"3E5872DAC540300284457D7EE8E73CD6","parentId":"54538176164405F034A1A81DBDC9FB53","loaderId":"42F5562C13A7C48B832553D64798626C","name":"footer-gwt-frame","url":"https://www.pup.edu.ph/resources/gwt/footer-source","domainAndRegistry":"pup.edu.ph","securityOrigin":"https://www.pup.edu.ph","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+23:52:34.586 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #1
+23:52:35.791 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"3E5872DAC540300284457D7EE8E73CD6"}}
+23:52:36.087 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"D879C82C8E84B83A0AB9A2E7D4013E3A"}}
+23:52:36.087 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameDetached","params":{"frameId":"D879C82C8E84B83A0AB9A2E7D4013E3A","reason":"swap"}}
+23:52:36.321 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Target.detachedFromTarget","params":{"sessionId":"94E429D1980971675D344A94DCB1987F","targetId":"D879C82C8E84B83A0AB9A2E7D4013E3A"}}
+23:52:36.541 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameDetached","params":{"frameId":"3E5872DAC540300284457D7EE8E73CD6","reason":"remove"}}
+23:52:36.541 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":2}}
+23:52:36.546 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Runtime.executionContextsCleared","params":{}}
+23:52:36.546 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"54538176164405F034A1A81DBDC9FB53","loaderId":"FE27799F54C2AAD6B6689A1DCF5558A0","url":"https://www.pup.edu.ph/about/","domainAndRegistry":"pup.edu.ph","securityOrigin":"https://www.pup.edu.ph","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+23:52:36.546 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":3,"origin":"https://www.pup.edu.ph","name":"","uniqueId":"-6420271986353780506.-648016051567249241","auxData":{"isDefault":true,"type":"default","frameId":"54538176164405F034A1A81DBDC9FB53"}}}}
+23:52:36.706 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Target.detachedFromTarget","params":{"sessionId":"295B33DF2087967CE7BDDD0AD04E13C1","targetId":"DC7D0BCA18A4EBFF1F01595CD8C40189"}}
+23:52:37.444 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameAttached","params":{"frameId":"2F3A4622D48471EE135A5DD469157CA9","parentFrameId":"54538176164405F034A1A81DBDC9FB53","stack":{"callFrames":[{"functionName":"","scriptId":"27","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":3453},{"functionName":"","scriptId":"27","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":5242},{"functionName":"t","scriptId":"27","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":106},{"functionName":"","scriptId":"27","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":7152},{"functionName":"t","scriptId":"27","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":106},{"functionName":"","scriptId":"27","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":6849},{"functionName":"","scriptId":"27","url":"https://s7.addthis.com/js/300/addthis_widget.js","line ...
+23:52:37.456 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStartedLoading","params":{"frameId":"2F3A4622D48471EE135A5DD469157CA9"}}
+23:52:37.476 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"2F3A4622D48471EE135A5DD469157CA9","parentId":"54538176164405F034A1A81DBDC9FB53","loaderId":"BEFA742F586B26BE48E6808480F8FE23","name":"_atssh481","url":"about:blank","domainAndRegistry":"","securityOrigin":"://","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+23:52:37.480 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":4,"origin":"https://www.pup.edu.ph","name":"","uniqueId":"3543232897569767606.519717536110106245","auxData":{"isDefault":true,"type":"default","frameId":"2F3A4622D48471EE135A5DD469157CA9"}}}}
+23:52:37.480 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"2F3A4622D48471EE135A5DD469157CA9"}}
+23:52:37.608 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameAttached","params":{"frameId":"07B4984D48FE22ADD4D0FA90AEDAE1FA","parentFrameId":"54538176164405F034A1A81DBDC9FB53"}}
+23:52:37.616 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"method":"Page.frameStartedLoading","params":{"frameId":"07B4984D48FE22ADD4D0FA90AEDAE1FA"}}
+23:52:37.686 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625154634817 - >> {"method":"Target.closeTarget","params":{"targetId":"54538176164405F034A1A81DBDC9FB53"},"id":11}
+23:52:37.690 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625154634817 - << {"id":11,"result":{"success":true}}
+23:52:37.844 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1625154634817
+23:52:38.242 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client disconnected
+23:52:43.567 [chrome_1625154634817] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chrome_1625154634817, --disable-popup-blocking]
+23:52:48.272 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/ricamara3_1/ricamara3_1.feature
+00:19:50.236 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: extraneous input '\r\n\r\n    Examples:' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+00:19:50.321 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/examples/ricamara3_1/ricamara3_1.feature - extraneous input '\r\n\r\n    Examples:' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+00:19:50.326 [main] ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+00:23:18.190 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:23:20.800 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+00:23:21.893 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+00:23:22.059 [chrome_1625156601797] DEBUG c.i.k.driver.chrome_1625156601797 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chrome_1625156601797, --disable-popup-blocking]
+00:23:23.420 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #0 for port to be ready - localhost:9222
+00:23:25.855 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #1 for port to be ready - localhost:9222
+00:23:28.135 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #2 for port to be ready - localhost:9222
+00:23:30.425 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #3 for port to be ready - localhost:9222
+00:23:32.696 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #4 for port to be ready - localhost:9222
+00:23:34.990 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #5 for port to be ready - localhost:9222
+00:23:37.265 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #6 for port to be ready - localhost:9222
+00:23:39.545 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #7 for port to be ready - localhost:9222
+00:23:41.825 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #8 for port to be ready - localhost:9222
+00:23:44.115 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #9 for port to be ready - localhost:9222
+00:23:46.395 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #10 for port to be ready - localhost:9222
+00:23:48.695 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #11 for port to be ready - localhost:9222
+00:23:50.985 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - poll attempt #12 for port to be ready - localhost:9222
+00:23:51.115 [chrome_1625156601797-out] DEBUG c.i.k.driver.chrome_1625156601797 - 
+00:23:51.115 [chrome_1625156601797-out] DEBUG c.i.k.driver.chrome_1625156601797 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/cf635ef6-cfeb-47b8-8322-fc24471dbab0
+00:24:57.440 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+00:25:00.869 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3197.32
+1 < 200
+1 < Content-Length: 5294
+1 < Content-Type: text/html; charset=UTF-8
+<!doctype html>
+<html lang="en">
+<title>Inspectable pages</title>
+<meta name="referrer" content="no-referrer">
+<style>
+body {
+  color: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-shadow: rgba(255, 255, 255, 0.496094) 0px 1px 0px;
+}
+
+#caption {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  height: 20px;
+  text-align: left;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.item {
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 10px;
+  transition-property: background-color, border-color;
+  transition: background-color 0.15s, 0.15s;
+  transition-delay: 0ms, 0ms;
+}
+
+.item:not(.connected):hover {
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(110, 116, 128, 1);
+  color: black;
+}
+
+.item.connected:hover {
+  border-color: rgba(184, 184, 184, 1);
+  color: rgb(110, 116, 128);
+}
+
+.item.custom {
+    cursor: pointer;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.title, .subtitle, .custom-url {
+  font-size: 13px;
+  margin: 4px 0px 0px 6px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.title {
+  background-repeat: no-repeat;
+  background-size: 16px;
+  font-size: 15px;
+}
+
+.custom-url {
+  display: flex;
+}
+
+.custom-url-label {
+  flex: 0 0 auto;
+}
+
+.custom-url-value {
+  font-family: monospace;
+  margin-left: 1em;
+}
+
+</style>
+
+<script>
+
+function onLoad() {
+  var tabsListRequest = new XMLHttpRequest();
+  tabsListRequest.open('GET', '/json/list', true);
+  tabsListRequest.onreadystatechange = onReady;
+  tabsListRequest.send();
+}
+
+function onReady() {
+  if(this.readyState == 4 && this.status == 200) {
+    if(this.response != null)
+      var responseJSON = JSON.parse(this.response);
+      for (var i = 0; i < responseJSON.length; ++i)
+        appendItem(responseJSON[i]);
+  }
+}
+
+function onBlur(event) {
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function onFocus(selectElement, event) {
+  selectNodeText(selectElement, event);
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function customFrontendURL(url) {
+  if (!url || !window.location.hash)
+    return null;
+
+  var hashParams = new URLSearchParams(location.hash.substring(1));
+  if (!hashParams.get("custom"))
+    return null;
+
+  var searchIndex = url.indexOf("?");
+  if (searchIndex === -1)
+    return null;
+  var originalParams = url.substring(searchIndex + 1);
+  if (hashParams.get("experiments"))
+    originalParams += "&experiments=true";
+
+  return "devtools://devtools/custom/inspector.html?" + originalParams;
+}
+
+function appendItem(item_object) {
+  var item_element;
+  var customURL = customFrontendURL(item_object.devtoolsFrontendUrl);
+  if (customURL) {
+    item_element = document.createElement('div');
+    item_element.title = item_object.title;
+    item_element.className = 'custom';
+  } else if (item_object.devtoolsFrontendUrl) {
+    item_element = document.createElement('a');
+    item_element.href = item_object.devtoolsFrontendUrl;
+    item_element.title = item_object.title;
+  } else {
+    item_element = document.createElement('div');
+    item_element.className = 'connected';
+    item_element.title = 'The tab already has an active debug session';
+  }
+  item_element.classList.add('item');
+
+  var description = document.createElement('div');
+  description.className = 'description';
+
+  var title = document.createElement('div');
+  title.className = 'title';
+  title.textContent = item_object.description || item_object.title;
+  if (item_object.faviconUrl) {
+    title.style.backgroundImage = 'url(' + item_object.faviconUrl + ')';
+  }
+  description.appendChild(title);
+
+  var subtitle = document.createElement('div');
+  subtitle.className = 'subtitle';
+  subtitle.textContent = (item_object.url || '').substring(0, 300);
+  description.appendChild(subtitle);
+
+  if (customURL) {
+    var urlContainer = document.createElement('div');
+    urlContainer.classList.add("custom-url");
+    var urlLabel = document.createElement('div');
+    urlLabel.classList.add("custom-url-label");
+    urlLabel.textContent = "Click to copy URL:";
+    urlContainer.appendChild(urlLabel);
+    var urlValue = document.createElement('div');
+    urlValue.classList.add("custom-url-value");
+    urlValue.textContent = customURL;
+    urlValue.tabIndex = 0;
+    urlValue.addEventListener('blur', onBlur);
+    urlValue.addEventListener('focus', event => onFocus(urlValue, event));
+    urlContainer.appendChild(urlValue);
+    description.appendChild(urlContainer);
+    item_element.addEventListener('click', selectNodeText.bind(null, urlValue));
+  }
+
+  item_element.appendChild(description);
+
+  document.getElementById('items').appendChild(item_element);
+}
+
+function selectNodeText(selectElement, event)
+{
+  var selection = window.getSelection();
+  if (!selection.isCollapsed)
+    return;
+  var range = document.createRange();
+  range.selectNode(selectElement);
+  selection.removeAllRanges();
+  selection.addRange(range);
+  event.stopPropagation();
+  event.preventDefault();
+}
+</script>
+</head>
+<body onload='onLoad()'>
+  <div role='main'>
+    <div id='caption' role='heading' aria-level='1'>Inspectable pages</div>
+    <hr>
+    <div id='items'>
+    </div>
+  </div>
+</body>
+</html>
+
+
+00:25:02.420 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+00:25:02.420 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 70905 ms - http://localhost:9222
+00:25:02.435 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+00:25:02.454 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 16.76
+1 < 200
+1 < Content-Length: 2201
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/73CEC06E396B79F8D6A0F6E0438B75AE",
+   "id": "73CEC06E396B79F8D6A0F6E0438B75AE",
+   "title": "CryptoTokenExtension",
+   "type": "background_page",
+   "url": "chrome-extension://kmendfapggjehodndflmmgagdbamhnfd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/73CEC06E396B79F8D6A0F6E0438B75AE"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/0F6F48B635994C08A80FC6B8EB870F41",
+   "id": "0F6F48B635994C08A80FC6B8EB870F41",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/0F6F48B635994C08A80FC6B8EB870F41"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/8ABEA63F7EC696AE820D59BE39A5D6BA",
+   "id": "8ABEA63F7EC696AE820D59BE39A5D6BA",
+   "title": "Feedback",
+   "type": "background_page",
+   "url": "chrome-extension://gfdkimpbcpahaombhbimeihdjnejgicl/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/8ABEA63F7EC696AE820D59BE39A5D6BA"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/A9A1E51DACD8D0DF9FB1AD973BFA2036",
+   "id": "A9A1E51DACD8D0DF9FB1AD973BFA2036",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/A9A1E51DACD8D0DF9FB1AD973BFA2036"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/C9C58C1A7525A1B2F7A21D7C8947BE7B",
+   "id": "C9C58C1A7525A1B2F7A21D7C8947BE7B",
+   "title": "Welcome to Chrome",
+   "type": "page",
+   "url": "chrome://welcome/?variant=everywhere",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/C9C58C1A7525A1B2F7A21D7C8947BE7B"
+} ]
+
+
+00:25:02.459 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - root frame id: C9C58C1A7525A1B2F7A21D7C8947BE7B
+00:25:16.712 [chrome_1625156601797-out] DEBUG c.i.k.driver.chrome_1625156601797 - [11944:12192:0702/002516.712:ERROR:device_event_log_impl.cc(214)] [00:25:16.711] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+00:25:37.585 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client connected
+00:25:37.609 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - >> {"method":"Target.activateTarget","params":{"targetId":"C9C58C1A7525A1B2F7A21D7C8947BE7B"},"id":1}
+00:25:39.295 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"id":1,"result":{}}
+00:25:39.302 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - >> {"method":"Page.enable","id":2}
+00:25:39.344 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"id":2,"result":{}}
+00:25:39.349 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - >> {"method":"Runtime.enable","id":3}
+00:25:39.644 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","uniqueId":"8010754327519261020.-8210472671810140786","auxData":{"isDefault":true,"type":"default","frameId":"C9C58C1A7525A1B2F7A21D7C8947BE7B"}}}}
+00:25:39.644 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"id":3,"result":{}}
+00:25:39.649 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - >> {"method":"Target.setAutoAttach","params":{"autoAttach":true,"waitForDebuggerOnStart":false,"flatten":true},"id":4}
+00:25:39.775 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"id":4,"result":{}}
+00:25:39.780 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - >> {"method":"Browser.getWindowForTarget","params":{"targetId":"C9C58C1A7525A1B2F7A21D7C8947BE7B"},"id":5}
+00:25:40.130 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"id":5,"result":{"windowId":1,"bounds":{"left":10,"top":10,"width":1050,"height":708,"windowState":"normal"}}}
+00:25:43.592 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - >> {"method":"Page.navigate","params":{"url":"https:\/\/www.pup.edu.ph\/"},"id":6}
+00:25:46.450 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"id":6,"result":{"frameId":"C9C58C1A7525A1B2F7A21D7C8947BE7B","loaderId":"45597BBC591F94659EC6AA5A871C6975"}}
+00:25:46.890 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Runtime.executionContextsCleared","params":{}}
+00:25:47.080 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameStartedLoading","params":{"frameId":"C9C58C1A7525A1B2F7A21D7C8947BE7B"}}
+00:25:49.458 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Runtime.executionContextsCleared","params":{}}
+00:25:49.458 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"C9C58C1A7525A1B2F7A21D7C8947BE7B","loaderId":"45597BBC591F94659EC6AA5A871C6975","url":"https://www.pup.edu.ph/","domainAndRegistry":"pup.edu.ph","securityOrigin":"https://www.pup.edu.ph","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+00:25:49.466 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.pup.edu.ph","name":"","uniqueId":"-7871847560831721552.555097424660760926","auxData":{"isDefault":true,"type":"default","frameId":"C9C58C1A7525A1B2F7A21D7C8947BE7B"}}}}
+00:25:58.549 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameAttached","params":{"frameId":"C9DAC3F18754DC1C4E7A3B3771E7DD21","parentFrameId":"C9C58C1A7525A1B2F7A21D7C8947BE7B"}}
+00:25:58.584 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameStartedLoading","params":{"frameId":"C9DAC3F18754DC1C4E7A3B3771E7DD21"}}
+00:25:59.759 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Target.attachedToTarget","params":{"sessionId":"08E7594C6722F5B4FFCBC1CB8F094663","targetInfo":{"targetId":"C9DAC3F18754DC1C4E7A3B3771E7DD21","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"812F4DA06BA7D88EB1962928B5439377"},"waitingForDebugger":false}}
+00:26:09.789 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"C9DAC3F18754DC1C4E7A3B3771E7DD21"}}
+00:26:09.834 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameDetached","params":{"frameId":"C9DAC3F18754DC1C4E7A3B3771E7DD21","reason":"remove"}}
+00:26:09.834 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameAttached","params":{"frameId":"EA544BD852515FBD5F8A99BA8F91156B","parentFrameId":"C9C58C1A7525A1B2F7A21D7C8947BE7B","stack":{"callFrames":[{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25691},{"functionName":"domManip","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":27980},{"functionName":"append","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25580},{"functionName":"wrapAll","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":533},{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":825},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":3,"columnNumber":5346},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","l ...
+00:26:09.844 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameStartedLoading","params":{"frameId":"EA544BD852515FBD5F8A99BA8F91156B"}}
+00:26:09.864 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"EA544BD852515FBD5F8A99BA8F91156B"}}
+00:26:09.919 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameDetached","params":{"frameId":"EA544BD852515FBD5F8A99BA8F91156B","reason":"remove"}}
+00:26:09.919 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameAttached","params":{"frameId":"31D41D8CBC0B8F0BDEB8F923B2DFEDE7","parentFrameId":"C9C58C1A7525A1B2F7A21D7C8947BE7B","stack":{"callFrames":[{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25691},{"functionName":"domManip","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":27980},{"functionName":"append","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25580},{"functionName":"wrapAll","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":533},{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":723},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":3,"columnNumber":5346},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","l ...
+00:26:09.919 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.frameStartedLoading","params":{"frameId":"31D41D8CBC0B8F0BDEB8F923B2DFEDE7"}}
+00:26:10.250 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Page.domContentEventFired","params":{"timestamp":1779653.096848}}
+00:26:10.510 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"method":"Target.attachedToTarget","params":{"sessionId":"5E0FF0E8A2D95AA559CB4733124A0DE4","targetInfo":{"targetId":"31D41D8CBC0B8F0BDEB8F923B2DFEDE7","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"812F4DA06BA7D88EB1962928B5439377"},"waitingForDebugger":false}}
+00:26:13.609 [ForkJoinPool-1-worker-1] ERROR c.i.k.driver.chrome_1625156601797 - << timed out after milliseconds: 30000 - [id: 6, method: Page.navigate, params: {url=https://www.pup.edu.ph/}]
+00:26:13.619 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156601797 - >> {"method":"Target.closeTarget","params":{"targetId":"C9C58C1A7525A1B2F7A21D7C8947BE7B"},"id":7}
+00:26:13.624 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625156601797 - << {"id":7,"result":{"success":true}}
+00:26:13.674 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1625156601797
+00:26:13.819 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client disconnected
+00:26:14.139 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+00:26:14.169 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 56058
+00:26:14.169 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9222 not available, will use: 56058
+00:26:14.225 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - poll attempt #0 for port to be ready - localhost:56058
+00:26:14.229 [chrome_1625156774149] DEBUG c.i.k.driver.chrome_1625156774149 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=56058, --no-first-run, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chrome_1625156774149, --disable-popup-blocking]
+00:26:16.499 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - poll attempt #1 for port to be ready - localhost:56058
+00:26:18.774 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - poll attempt #2 for port to be ready - localhost:56058
+00:26:21.079 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - poll attempt #3 for port to be ready - localhost:56058
+00:26:23.364 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - poll attempt #4 for port to be ready - localhost:56058
+00:26:25.654 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - poll attempt #5 for port to be ready - localhost:56058
+00:26:27.954 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - poll attempt #6 for port to be ready - localhost:56058
+00:26:30.245 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - poll attempt #7 for port to be ready - localhost:56058
+00:26:32.534 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - poll attempt #8 for port to be ready - localhost:56058
+00:26:34.409 [chrome_1625156774149-out] DEBUG c.i.k.driver.chrome_1625156774149 - 
+00:26:34.409 [chrome_1625156774149-out] DEBUG c.i.k.driver.chrome_1625156774149 - DevTools listening on ws://127.0.0.1:56058/devtools/browser/7de2fba8-30f9-4cd9-8c17-894b99e45352
+00:26:34.574 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:56058
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:56058
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+00:26:35.569 [chrome_1625156601797] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chrome_1625156601797, --disable-popup-blocking]
+00:26:36.199 [chrome_1625156601797] DEBUG com.intuit.karate.shell.Command - console readers complete
+00:26:39.359 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4781.76
+1 < 200
+1 < Content-Length: 5294
+1 < Content-Type: text/html; charset=UTF-8
+<!doctype html>
+<html lang="en">
+<title>Inspectable pages</title>
+<meta name="referrer" content="no-referrer">
+<style>
+body {
+  color: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-shadow: rgba(255, 255, 255, 0.496094) 0px 1px 0px;
+}
+
+#caption {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  height: 20px;
+  text-align: left;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.item {
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 10px;
+  transition-property: background-color, border-color;
+  transition: background-color 0.15s, 0.15s;
+  transition-delay: 0ms, 0ms;
+}
+
+.item:not(.connected):hover {
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(110, 116, 128, 1);
+  color: black;
+}
+
+.item.connected:hover {
+  border-color: rgba(184, 184, 184, 1);
+  color: rgb(110, 116, 128);
+}
+
+.item.custom {
+    cursor: pointer;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.title, .subtitle, .custom-url {
+  font-size: 13px;
+  margin: 4px 0px 0px 6px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.title {
+  background-repeat: no-repeat;
+  background-size: 16px;
+  font-size: 15px;
+}
+
+.custom-url {
+  display: flex;
+}
+
+.custom-url-label {
+  flex: 0 0 auto;
+}
+
+.custom-url-value {
+  font-family: monospace;
+  margin-left: 1em;
+}
+
+</style>
+
+<script>
+
+function onLoad() {
+  var tabsListRequest = new XMLHttpRequest();
+  tabsListRequest.open('GET', '/json/list', true);
+  tabsListRequest.onreadystatechange = onReady;
+  tabsListRequest.send();
+}
+
+function onReady() {
+  if(this.readyState == 4 && this.status == 200) {
+    if(this.response != null)
+      var responseJSON = JSON.parse(this.response);
+      for (var i = 0; i < responseJSON.length; ++i)
+        appendItem(responseJSON[i]);
+  }
+}
+
+function onBlur(event) {
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function onFocus(selectElement, event) {
+  selectNodeText(selectElement, event);
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function customFrontendURL(url) {
+  if (!url || !window.location.hash)
+    return null;
+
+  var hashParams = new URLSearchParams(location.hash.substring(1));
+  if (!hashParams.get("custom"))
+    return null;
+
+  var searchIndex = url.indexOf("?");
+  if (searchIndex === -1)
+    return null;
+  var originalParams = url.substring(searchIndex + 1);
+  if (hashParams.get("experiments"))
+    originalParams += "&experiments=true";
+
+  return "devtools://devtools/custom/inspector.html?" + originalParams;
+}
+
+function appendItem(item_object) {
+  var item_element;
+  var customURL = customFrontendURL(item_object.devtoolsFrontendUrl);
+  if (customURL) {
+    item_element = document.createElement('div');
+    item_element.title = item_object.title;
+    item_element.className = 'custom';
+  } else if (item_object.devtoolsFrontendUrl) {
+    item_element = document.createElement('a');
+    item_element.href = item_object.devtoolsFrontendUrl;
+    item_element.title = item_object.title;
+  } else {
+    item_element = document.createElement('div');
+    item_element.className = 'connected';
+    item_element.title = 'The tab already has an active debug session';
+  }
+  item_element.classList.add('item');
+
+  var description = document.createElement('div');
+  description.className = 'description';
+
+  var title = document.createElement('div');
+  title.className = 'title';
+  title.textContent = item_object.description || item_object.title;
+  if (item_object.faviconUrl) {
+    title.style.backgroundImage = 'url(' + item_object.faviconUrl + ')';
+  }
+  description.appendChild(title);
+
+  var subtitle = document.createElement('div');
+  subtitle.className = 'subtitle';
+  subtitle.textContent = (item_object.url || '').substring(0, 300);
+  description.appendChild(subtitle);
+
+  if (customURL) {
+    var urlContainer = document.createElement('div');
+    urlContainer.classList.add("custom-url");
+    var urlLabel = document.createElement('div');
+    urlLabel.classList.add("custom-url-label");
+    urlLabel.textContent = "Click to copy URL:";
+    urlContainer.appendChild(urlLabel);
+    var urlValue = document.createElement('div');
+    urlValue.classList.add("custom-url-value");
+    urlValue.textContent = customURL;
+    urlValue.tabIndex = 0;
+    urlValue.addEventListener('blur', onBlur);
+    urlValue.addEventListener('focus', event => onFocus(urlValue, event));
+    urlContainer.appendChild(urlValue);
+    description.appendChild(urlContainer);
+    item_element.addEventListener('click', selectNodeText.bind(null, urlValue));
+  }
+
+  item_element.appendChild(description);
+
+  document.getElementById('items').appendChild(item_element);
+}
+
+function selectNodeText(selectElement, event)
+{
+  var selection = window.getSelection();
+  if (!selection.isCollapsed)
+    return;
+  var range = document.createRange();
+  range.selectNode(selectElement);
+  selection.removeAllRanges();
+  selection.addRange(range);
+  event.stopPropagation();
+  event.preventDefault();
+}
+</script>
+</head>
+<body onload='onLoad()'>
+  <div role='main'>
+    <div id='caption' role='heading' aria-level='1'>Inspectable pages</div>
+    <hr>
+    <div id='items'>
+    </div>
+  </div>
+</body>
+</html>
+
+
+00:26:39.364 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+00:26:39.369 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 4810 ms - http://localhost:56058
+00:26:39.374 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:56058/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:56058
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+00:26:39.588 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 214.48
+1 < 200
+1 < Content-Length: 825
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:56058/devtools/page/AD6FCDC08DB1F1176E8FF131D50DFFDA",
+   "id": "AD6FCDC08DB1F1176E8FF131D50DFFDA",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:56058/devtools/page/AD6FCDC08DB1F1176E8FF131D50DFFDA"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:56058/devtools/page/3550D1C473AE3C10B8B58A46E95642B7",
+   "id": "3550D1C473AE3C10B8B58A46E95642B7",
+   "title": "",
+   "type": "page",
+   "url": "chrome://welcome/?variant=everywhere",
+   "webSocketDebuggerUrl": "ws://localhost:56058/devtools/page/3550D1C473AE3C10B8B58A46E95642B7"
+} ]
+
+
+00:26:39.588 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - root frame id: 3550D1C473AE3C10B8B58A46E95642B7
+00:26:39.762 [nioEventLoopGroup-3-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client connected
+00:26:39.770 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - >> {"method":"Target.activateTarget","params":{"targetId":"3550D1C473AE3C10B8B58A46E95642B7"},"id":1}
+00:26:40.104 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"id":1,"result":{}}
+00:26:40.115 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - >> {"method":"Page.enable","id":2}
+00:26:44.574 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"id":2,"result":{}}
+00:26:44.584 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - >> {"method":"Runtime.enable","id":3}
+00:26:46.549 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","uniqueId":"3961898519443410678.4577438627379975488","auxData":{"isDefault":true,"type":"default","frameId":"3550D1C473AE3C10B8B58A46E95642B7"}}}}
+00:26:46.554 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"id":3,"result":{}}
+00:26:46.569 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - >> {"method":"Target.setAutoAttach","params":{"autoAttach":true,"waitForDebuggerOnStart":false,"flatten":true},"id":4}
+00:26:51.010 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"id":4,"result":{}}
+00:26:51.019 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - >> {"method":"Browser.getWindowForTarget","params":{"targetId":"3550D1C473AE3C10B8B58A46E95642B7"},"id":5}
+00:26:51.024 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"id":5,"result":{"windowId":1,"bounds":{"left":10,"top":10,"width":1050,"height":708,"windowState":"normal"}}}
+00:26:53.224 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - >> {"method":"Page.navigate","params":{"url":"https:\/\/www.pup.edu.ph\/"},"id":6}
+00:26:54.024 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"method":"Page.navigatedWithinDocument","params":{"frameId":"3550D1C473AE3C10B8B58A46E95642B7","url":"chrome://welcome/"}}
+00:26:54.029 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"method":"Page.domContentEventFired","params":{"timestamp":1779697.102293}}
+00:26:54.455 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - >> {"method":"Runtime.evaluate","params":{"expression":"document.evaluate(\"\/\/a[normalize-space(text())='Alumni']\", document, null, 9, null).singleNodeValue.click()","returnByValue":true},"id":7}
+00:26:56.069 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"id":6,"result":{"frameId":"3550D1C473AE3C10B8B58A46E95642B7","loaderId":"AF4718A8F52B518AABD10059B61E1B1E"}}
+00:26:56.077 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"id":7,"error":{"code":-32000,"message":"Inspected target navigated or closed"}}
+00:26:56.077 [nioEventLoopGroup-3-1] WARN  c.i.k.driver.chrome_1625156774149 - devtools error: [id: 7, error: {code=-32000, message=Inspected target navigated or closed}]
+00:26:56.089 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"method":"Runtime.executionContextsCleared","params":{}}
+00:26:56.089 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"method":"Page.frameStartedLoading","params":{"frameId":"3550D1C473AE3C10B8B58A46E95642B7"}}
+00:26:56.110 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625156774149 - >> {"method":"Target.closeTarget","params":{"targetId":"3550D1C473AE3C10B8B58A46E95642B7"},"id":8}
+00:26:56.134 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625156774149 - << {"id":8,"result":{"success":true}}
+00:26:56.148 [nioEventLoopGroup-3-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client disconnected
+00:26:56.154 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1625156774149
+00:26:57.754 [chrome_1625156774149] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=56058, --no-first-run, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chrome_1625156774149, --disable-popup-blocking]
+00:26:58.722 [chrome_1625156774149] DEBUG com.intuit.karate.shell.Command - console readers complete
+00:27:05.364 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/ricamara3_1/ricamara3_1.feature
+00:30:28.158 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:30:30.758 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+00:30:31.693 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+00:30:31.784 [chrome_1625157031616] DEBUG c.i.k.driver.chrome_1625157031616 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chrome_1625157031616, --disable-popup-blocking]
+00:30:31.984 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - poll attempt #0 for port to be ready - localhost:9222
+00:30:34.833 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - poll attempt #1 for port to be ready - localhost:9222
+00:30:37.103 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - poll attempt #2 for port to be ready - localhost:9222
+00:30:39.438 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - poll attempt #3 for port to be ready - localhost:9222
+00:30:41.738 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - poll attempt #4 for port to be ready - localhost:9222
+00:30:44.033 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - poll attempt #5 for port to be ready - localhost:9222
+00:30:45.893 [chrome_1625157031616-out] DEBUG c.i.k.driver.chrome_1625157031616 - 
+00:30:45.893 [chrome_1625157031616-out] DEBUG c.i.k.driver.chrome_1625157031616 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/2e7da59b-61ec-46ff-9cc3-08e3f7cf6086
+00:31:02.711 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+00:31:05.381 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2421.56
+1 < 200
+1 < Content-Length: 5294
+1 < Content-Type: text/html; charset=UTF-8
+<!doctype html>
+<html lang="en">
+<title>Inspectable pages</title>
+<meta name="referrer" content="no-referrer">
+<style>
+body {
+  color: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-shadow: rgba(255, 255, 255, 0.496094) 0px 1px 0px;
+}
+
+#caption {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  height: 20px;
+  text-align: left;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.item {
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 10px;
+  transition-property: background-color, border-color;
+  transition: background-color 0.15s, 0.15s;
+  transition-delay: 0ms, 0ms;
+}
+
+.item:not(.connected):hover {
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(110, 116, 128, 1);
+  color: black;
+}
+
+.item.connected:hover {
+  border-color: rgba(184, 184, 184, 1);
+  color: rgb(110, 116, 128);
+}
+
+.item.custom {
+    cursor: pointer;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.title, .subtitle, .custom-url {
+  font-size: 13px;
+  margin: 4px 0px 0px 6px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.title {
+  background-repeat: no-repeat;
+  background-size: 16px;
+  font-size: 15px;
+}
+
+.custom-url {
+  display: flex;
+}
+
+.custom-url-label {
+  flex: 0 0 auto;
+}
+
+.custom-url-value {
+  font-family: monospace;
+  margin-left: 1em;
+}
+
+</style>
+
+<script>
+
+function onLoad() {
+  var tabsListRequest = new XMLHttpRequest();
+  tabsListRequest.open('GET', '/json/list', true);
+  tabsListRequest.onreadystatechange = onReady;
+  tabsListRequest.send();
+}
+
+function onReady() {
+  if(this.readyState == 4 && this.status == 200) {
+    if(this.response != null)
+      var responseJSON = JSON.parse(this.response);
+      for (var i = 0; i < responseJSON.length; ++i)
+        appendItem(responseJSON[i]);
+  }
+}
+
+function onBlur(event) {
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function onFocus(selectElement, event) {
+  selectNodeText(selectElement, event);
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function customFrontendURL(url) {
+  if (!url || !window.location.hash)
+    return null;
+
+  var hashParams = new URLSearchParams(location.hash.substring(1));
+  if (!hashParams.get("custom"))
+    return null;
+
+  var searchIndex = url.indexOf("?");
+  if (searchIndex === -1)
+    return null;
+  var originalParams = url.substring(searchIndex + 1);
+  if (hashParams.get("experiments"))
+    originalParams += "&experiments=true";
+
+  return "devtools://devtools/custom/inspector.html?" + originalParams;
+}
+
+function appendItem(item_object) {
+  var item_element;
+  var customURL = customFrontendURL(item_object.devtoolsFrontendUrl);
+  if (customURL) {
+    item_element = document.createElement('div');
+    item_element.title = item_object.title;
+    item_element.className = 'custom';
+  } else if (item_object.devtoolsFrontendUrl) {
+    item_element = document.createElement('a');
+    item_element.href = item_object.devtoolsFrontendUrl;
+    item_element.title = item_object.title;
+  } else {
+    item_element = document.createElement('div');
+    item_element.className = 'connected';
+    item_element.title = 'The tab already has an active debug session';
+  }
+  item_element.classList.add('item');
+
+  var description = document.createElement('div');
+  description.className = 'description';
+
+  var title = document.createElement('div');
+  title.className = 'title';
+  title.textContent = item_object.description || item_object.title;
+  if (item_object.faviconUrl) {
+    title.style.backgroundImage = 'url(' + item_object.faviconUrl + ')';
+  }
+  description.appendChild(title);
+
+  var subtitle = document.createElement('div');
+  subtitle.className = 'subtitle';
+  subtitle.textContent = (item_object.url || '').substring(0, 300);
+  description.appendChild(subtitle);
+
+  if (customURL) {
+    var urlContainer = document.createElement('div');
+    urlContainer.classList.add("custom-url");
+    var urlLabel = document.createElement('div');
+    urlLabel.classList.add("custom-url-label");
+    urlLabel.textContent = "Click to copy URL:";
+    urlContainer.appendChild(urlLabel);
+    var urlValue = document.createElement('div');
+    urlValue.classList.add("custom-url-value");
+    urlValue.textContent = customURL;
+    urlValue.tabIndex = 0;
+    urlValue.addEventListener('blur', onBlur);
+    urlValue.addEventListener('focus', event => onFocus(urlValue, event));
+    urlContainer.appendChild(urlValue);
+    description.appendChild(urlContainer);
+    item_element.addEventListener('click', selectNodeText.bind(null, urlValue));
+  }
+
+  item_element.appendChild(description);
+
+  document.getElementById('items').appendChild(item_element);
+}
+
+function selectNodeText(selectElement, event)
+{
+  var selection = window.getSelection();
+  if (!selection.isCollapsed)
+    return;
+  var range = document.createRange();
+  range.selectNode(selectElement);
+  selection.removeAllRanges();
+  selection.addRange(range);
+  event.stopPropagation();
+  event.preventDefault();
+}
+</script>
+</head>
+<body onload='onLoad()'>
+  <div role='main'>
+    <div id='caption' role='heading' aria-level='1'>Inspectable pages</div>
+    <hr>
+    <div id='items'>
+    </div>
+  </div>
+</body>
+</html>
+
+
+00:31:06.904 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+00:31:06.913 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 20819 ms - http://localhost:9222
+00:31:06.924 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+00:31:06.929 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2.59
+1 < 200
+1 < Content-Length: 2201
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/31429DD6A216024097990F5EC5263294",
+   "id": "31429DD6A216024097990F5EC5263294",
+   "title": "Welcome to Chrome",
+   "type": "page",
+   "url": "chrome://welcome/?variant=everywhere",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/31429DD6A216024097990F5EC5263294"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/E66D0AB12146E323B7EC8A5C482EB649",
+   "id": "E66D0AB12146E323B7EC8A5C482EB649",
+   "title": "CryptoTokenExtension",
+   "type": "background_page",
+   "url": "chrome-extension://kmendfapggjehodndflmmgagdbamhnfd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/E66D0AB12146E323B7EC8A5C482EB649"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/11808703BBA05E07D8AC38326FBBD94A",
+   "id": "11808703BBA05E07D8AC38326FBBD94A",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/11808703BBA05E07D8AC38326FBBD94A"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/31C2FCF3BDB49A345B0A986FC211EEC1",
+   "id": "31C2FCF3BDB49A345B0A986FC211EEC1",
+   "title": "Feedback",
+   "type": "background_page",
+   "url": "chrome-extension://gfdkimpbcpahaombhbimeihdjnejgicl/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/31C2FCF3BDB49A345B0A986FC211EEC1"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/A38AB99C05BD8935032EE45C68846E06",
+   "id": "A38AB99C05BD8935032EE45C68846E06",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/A38AB99C05BD8935032EE45C68846E06"
+} ]
+
+
+00:31:06.938 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - root frame id: 31429DD6A216024097990F5EC5263294
+00:31:21.338 [chrome_1625157031616-out] DEBUG c.i.k.driver.chrome_1625157031616 - [14052:6192:0702/003121.338:ERROR:device_event_log_impl.cc(214)] [00:31:21.339] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+00:31:23.303 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client connected
+00:31:23.308 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - >> {"method":"Target.activateTarget","params":{"targetId":"31429DD6A216024097990F5EC5263294"},"id":1}
+00:31:24.279 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"id":1,"result":{}}
+00:31:24.303 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - >> {"method":"Page.enable","id":2}
+00:31:24.314 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"id":2,"result":{}}
+00:31:24.323 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - >> {"method":"Runtime.enable","id":3}
+00:31:24.444 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","uniqueId":"-7350456317308609537.-9212087995623822092","auxData":{"isDefault":true,"type":"default","frameId":"31429DD6A216024097990F5EC5263294"}}}}
+00:31:24.448 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"id":3,"result":{}}
+00:31:24.458 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - >> {"method":"Target.setAutoAttach","params":{"autoAttach":true,"waitForDebuggerOnStart":false,"flatten":true},"id":4}
+00:31:24.488 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"id":4,"result":{}}
+00:31:24.493 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - >> {"method":"Browser.getWindowForTarget","params":{"targetId":"31429DD6A216024097990F5EC5263294"},"id":5}
+00:31:24.635 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"id":5,"result":{"windowId":1,"bounds":{"left":10,"top":10,"width":1050,"height":708,"windowState":"normal"}}}
+00:31:27.140 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - >> {"method":"Page.navigate","params":{"url":"https:\/\/www.pup.edu.ph\/"},"id":6}
+00:31:28.283 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"id":6,"result":{"frameId":"31429DD6A216024097990F5EC5263294","loaderId":"28ADC9D6E5146FF658CC62290BEE0FC3"}}
+00:31:28.413 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Runtime.executionContextsCleared","params":{}}
+00:31:28.487 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameStartedLoading","params":{"frameId":"31429DD6A216024097990F5EC5263294"}}
+00:31:29.013 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Runtime.executionContextsCleared","params":{}}
+00:31:29.013 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"31429DD6A216024097990F5EC5263294","loaderId":"28ADC9D6E5146FF658CC62290BEE0FC3","url":"https://www.pup.edu.ph/","domainAndRegistry":"pup.edu.ph","securityOrigin":"https://www.pup.edu.ph","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+00:31:29.013 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.pup.edu.ph","name":"","uniqueId":"-1373706848073635096.7508859283867643764","auxData":{"isDefault":true,"type":"default","frameId":"31429DD6A216024097990F5EC5263294"}}}}
+00:31:33.563 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameAttached","params":{"frameId":"573990931D68790450100C54F5891AE9","parentFrameId":"31429DD6A216024097990F5EC5263294"}}
+00:31:33.570 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameStartedLoading","params":{"frameId":"573990931D68790450100C54F5891AE9"}}
+00:31:34.004 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Target.attachedToTarget","params":{"sessionId":"E12EA7DE00597767A2FC697B9D4251BC","targetInfo":{"targetId":"573990931D68790450100C54F5891AE9","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"FD43048488217709B5FFAB67B08D92EE"},"waitingForDebugger":false}}
+00:31:34.463 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"573990931D68790450100C54F5891AE9"}}
+00:31:34.712 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Target.detachedFromTarget","params":{"sessionId":"E12EA7DE00597767A2FC697B9D4251BC","targetId":"573990931D68790450100C54F5891AE9"}}
+00:31:34.712 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameDetached","params":{"frameId":"573990931D68790450100C54F5891AE9","reason":"remove"}}
+00:31:34.712 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameAttached","params":{"frameId":"325B3E589BF7CA33A2F32854D2E8094B","parentFrameId":"31429DD6A216024097990F5EC5263294","stack":{"callFrames":[{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25691},{"functionName":"domManip","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":27980},{"functionName":"append","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25580},{"functionName":"wrapAll","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":533},{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":825},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":3,"columnNumber":5346},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","l ...
+00:31:34.720 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameStartedLoading","params":{"frameId":"325B3E589BF7CA33A2F32854D2E8094B"}}
+00:31:34.723 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"325B3E589BF7CA33A2F32854D2E8094B"}}
+00:31:34.728 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameDetached","params":{"frameId":"325B3E589BF7CA33A2F32854D2E8094B","reason":"remove"}}
+00:31:34.728 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameAttached","params":{"frameId":"CEBB95CFB566207C22B18E2D90E4FEAF","parentFrameId":"31429DD6A216024097990F5EC5263294","stack":{"callFrames":[{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25691},{"functionName":"domManip","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":27980},{"functionName":"append","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25580},{"functionName":"wrapAll","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":533},{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":723},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":3,"columnNumber":5346},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","l ...
+00:31:34.728 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameStartedLoading","params":{"frameId":"CEBB95CFB566207C22B18E2D90E4FEAF"}}
+00:31:35.074 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Target.attachedToTarget","params":{"sessionId":"5261EF1148146858E7D51E0A8C59573C","targetInfo":{"targetId":"CEBB95CFB566207C22B18E2D90E4FEAF","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"FD43048488217709B5FFAB67B08D92EE"},"waitingForDebugger":false}}
+00:31:35.314 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.domContentEventFired","params":{"timestamp":1779978.307416}}
+00:31:44.453 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"CEBB95CFB566207C22B18E2D90E4FEAF"}}
+00:31:44.673 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameDetached","params":{"frameId":"CEBB95CFB566207C22B18E2D90E4FEAF","reason":"swap"}}
+00:31:45.167 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameAttached","params":{"frameId":"F645C372B65D28599876A032F9ED01A0","parentFrameId":"31429DD6A216024097990F5EC5263294","stack":{"callFrames":[{"functionName":"load","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":36889},{"functionName":"load","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":22027},{"functionName":"","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":17389},{"functionName":"o","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":65857},{"functionName":"","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":17374},{"functionName":"i","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":627},{"functionName":"","scriptId":"19","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":2762},{"functionName":" ...
+00:31:45.187 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameStartedLoading","params":{"frameId":"F645C372B65D28599876A032F9ED01A0"}}
+00:31:46.993 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameAttached","params":{"frameId":"D6BBF1FEA457687B7622F2973A6F2300","parentFrameId":"31429DD6A216024097990F5EC5263294","stack":{"callFrames":[{"functionName":"","scriptId":"20","url":"https://www.pup.edu.ph/resources/gwt/footer.js?go=1","lineNumber":15,"columnNumber":13},{"functionName":"","scriptId":"20","url":"https://www.pup.edu.ph/resources/gwt/footer.js?go=1","lineNumber":26,"columnNumber":1}]}}}
+00:31:47.008 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameStartedLoading","params":{"frameId":"D6BBF1FEA457687B7622F2973A6F2300"}}
+00:31:47.074 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"https://www.pup.edu.ph","name":"","uniqueId":"-6287625568186092835.3748362876860466490","auxData":{"isDefault":true,"type":"default","frameId":"D6BBF1FEA457687B7622F2973A6F2300"}}}}
+00:31:47.528 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - >> {"method":"Runtime.evaluate","params":{"expression":"document.evaluate(\"\/\/a[normalize-space(text())='Academic']\", document, null, 9, null).singleNodeValue.click()","returnByValue":true},"id":7}
+00:31:48.753 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"31429DD6A216024097990F5EC5263294","delay":0,"reason":"anchorClick","url":"https://www.pup.edu.ph/#"}}
+00:31:48.913 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Target.attachedToTarget","params":{"sessionId":"D5395464B01E46DF0D8E8DE8404A3DAB","targetInfo":{"targetId":"F645C372B65D28599876A032F9ED01A0","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"FD43048488217709B5FFAB67B08D92EE"},"waitingForDebugger":false}}
+00:31:48.918 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.navigatedWithinDocument","params":{"frameId":"31429DD6A216024097990F5EC5263294","url":"https://www.pup.edu.ph/#"}}
+00:31:48.923 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"31429DD6A216024097990F5EC5263294"}}
+00:31:48.923 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"id":7,"result":{"result":{"type":"undefined"}}}
+00:31:48.968 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - >> {"method":"Runtime.evaluate","params":{"expression":"document.evaluate(\"\/\/a[normalize-space(text())='Graduate Studies']\", document, null, 9, null).singleNodeValue.click()","returnByValue":true},"id":8}
+00:31:48.973 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"31429DD6A216024097990F5EC5263294","delay":0,"reason":"anchorClick","url":"https://www.pup.edu.ph/academic/graduatestudies"}}
+00:31:49.023 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameRequestedNavigation","params":{"frameId":"31429DD6A216024097990F5EC5263294","reason":"anchorClick","url":"https://www.pup.edu.ph/academic/graduatestudies","disposition":"currentTab"}}
+00:31:49.023 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"31429DD6A216024097990F5EC5263294"}}
+00:31:49.028 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"id":8,"result":{"result":{"type":"undefined"}}}
+00:31:49.648 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #1
+00:31:51.958 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"D6BBF1FEA457687B7622F2973A6F2300"}}
+00:31:51.978 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameDetached","params":{"frameId":"D6BBF1FEA457687B7622F2973A6F2300","reason":"remove"}}
+00:31:51.983 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":2}}
+00:31:51.983 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"F645C372B65D28599876A032F9ED01A0"}}
+00:31:52.238 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Target.detachedFromTarget","params":{"sessionId":"D5395464B01E46DF0D8E8DE8404A3DAB","targetId":"F645C372B65D28599876A032F9ED01A0"}}
+00:31:52.241 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameDetached","params":{"frameId":"F645C372B65D28599876A032F9ED01A0","reason":"remove"}}
+00:31:52.252 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Runtime.executionContextsCleared","params":{}}
+00:31:52.254 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"31429DD6A216024097990F5EC5263294","loaderId":"957C597708BED9F3D191403DA7115EE0","url":"https://www.pup.edu.ph/academic/graduatestudies","domainAndRegistry":"pup.edu.ph","securityOrigin":"https://www.pup.edu.ph","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+00:31:52.258 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":3,"origin":"https://www.pup.edu.ph","name":"","uniqueId":"7912502190907744548.-6892028366737390620","auxData":{"isDefault":true,"type":"default","frameId":"31429DD6A216024097990F5EC5263294"}}}}
+00:31:52.469 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"method":"Target.detachedFromTarget","params":{"sessionId":"5261EF1148146858E7D51E0A8C59573C","targetId":"CEBB95CFB566207C22B18E2D90E4FEAF"}}
+00:31:52.795 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157031616 - >> {"method":"Target.closeTarget","params":{"targetId":"31429DD6A216024097990F5EC5263294"},"id":9}
+00:31:52.798 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1625157031616 - << {"id":9,"result":{"success":true}}
+00:31:52.929 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1625157031616
+00:31:52.949 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client disconnected
+00:31:53.039 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+00:31:53.051 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 52790
+00:31:53.051 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9222 not available, will use: 52790
+00:31:53.059 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - poll attempt #0 for port to be ready - localhost:52790
+00:31:53.063 [chrome_1625157113051] DEBUG c.i.k.driver.chrome_1625157113051 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=52790, --no-first-run, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chrome_1625157113051, --disable-popup-blocking]
+00:31:55.613 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - poll attempt #1 for port to be ready - localhost:52790
+00:31:57.893 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - poll attempt #2 for port to be ready - localhost:52790
+00:32:00.173 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - poll attempt #3 for port to be ready - localhost:52790
+00:32:01.112 [chrome_1625157113051-out] DEBUG c.i.k.driver.chrome_1625157113051 - 
+00:32:01.112 [chrome_1625157113051-out] DEBUG c.i.k.driver.chrome_1625157113051 - DevTools listening on ws://127.0.0.1:52790/devtools/browser/2071f81b-0879-4877-9b55-1fe9d4ef06d3
+00:32:01.218 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:52790
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:52790
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+00:32:03.798 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2579.47
+1 < 200
+1 < Content-Length: 5294
+1 < Content-Type: text/html; charset=UTF-8
+<!doctype html>
+<html lang="en">
+<title>Inspectable pages</title>
+<meta name="referrer" content="no-referrer">
+<style>
+body {
+  color: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-shadow: rgba(255, 255, 255, 0.496094) 0px 1px 0px;
+}
+
+#caption {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  height: 20px;
+  text-align: left;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.item {
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 10px;
+  transition-property: background-color, border-color;
+  transition: background-color 0.15s, 0.15s;
+  transition-delay: 0ms, 0ms;
+}
+
+.item:not(.connected):hover {
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(110, 116, 128, 1);
+  color: black;
+}
+
+.item.connected:hover {
+  border-color: rgba(184, 184, 184, 1);
+  color: rgb(110, 116, 128);
+}
+
+.item.custom {
+    cursor: pointer;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.title, .subtitle, .custom-url {
+  font-size: 13px;
+  margin: 4px 0px 0px 6px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.title {
+  background-repeat: no-repeat;
+  background-size: 16px;
+  font-size: 15px;
+}
+
+.custom-url {
+  display: flex;
+}
+
+.custom-url-label {
+  flex: 0 0 auto;
+}
+
+.custom-url-value {
+  font-family: monospace;
+  margin-left: 1em;
+}
+
+</style>
+
+<script>
+
+function onLoad() {
+  var tabsListRequest = new XMLHttpRequest();
+  tabsListRequest.open('GET', '/json/list', true);
+  tabsListRequest.onreadystatechange = onReady;
+  tabsListRequest.send();
+}
+
+function onReady() {
+  if(this.readyState == 4 && this.status == 200) {
+    if(this.response != null)
+      var responseJSON = JSON.parse(this.response);
+      for (var i = 0; i < responseJSON.length; ++i)
+        appendItem(responseJSON[i]);
+  }
+}
+
+function onBlur(event) {
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function onFocus(selectElement, event) {
+  selectNodeText(selectElement, event);
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function customFrontendURL(url) {
+  if (!url || !window.location.hash)
+    return null;
+
+  var hashParams = new URLSearchParams(location.hash.substring(1));
+  if (!hashParams.get("custom"))
+    return null;
+
+  var searchIndex = url.indexOf("?");
+  if (searchIndex === -1)
+    return null;
+  var originalParams = url.substring(searchIndex + 1);
+  if (hashParams.get("experiments"))
+    originalParams += "&experiments=true";
+
+  return "devtools://devtools/custom/inspector.html?" + originalParams;
+}
+
+function appendItem(item_object) {
+  var item_element;
+  var customURL = customFrontendURL(item_object.devtoolsFrontendUrl);
+  if (customURL) {
+    item_element = document.createElement('div');
+    item_element.title = item_object.title;
+    item_element.className = 'custom';
+  } else if (item_object.devtoolsFrontendUrl) {
+    item_element = document.createElement('a');
+    item_element.href = item_object.devtoolsFrontendUrl;
+    item_element.title = item_object.title;
+  } else {
+    item_element = document.createElement('div');
+    item_element.className = 'connected';
+    item_element.title = 'The tab already has an active debug session';
+  }
+  item_element.classList.add('item');
+
+  var description = document.createElement('div');
+  description.className = 'description';
+
+  var title = document.createElement('div');
+  title.className = 'title';
+  title.textContent = item_object.description || item_object.title;
+  if (item_object.faviconUrl) {
+    title.style.backgroundImage = 'url(' + item_object.faviconUrl + ')';
+  }
+  description.appendChild(title);
+
+  var subtitle = document.createElement('div');
+  subtitle.className = 'subtitle';
+  subtitle.textContent = (item_object.url || '').substring(0, 300);
+  description.appendChild(subtitle);
+
+  if (customURL) {
+    var urlContainer = document.createElement('div');
+    urlContainer.classList.add("custom-url");
+    var urlLabel = document.createElement('div');
+    urlLabel.classList.add("custom-url-label");
+    urlLabel.textContent = "Click to copy URL:";
+    urlContainer.appendChild(urlLabel);
+    var urlValue = document.createElement('div');
+    urlValue.classList.add("custom-url-value");
+    urlValue.textContent = customURL;
+    urlValue.tabIndex = 0;
+    urlValue.addEventListener('blur', onBlur);
+    urlValue.addEventListener('focus', event => onFocus(urlValue, event));
+    urlContainer.appendChild(urlValue);
+    description.appendChild(urlContainer);
+    item_element.addEventListener('click', selectNodeText.bind(null, urlValue));
+  }
+
+  item_element.appendChild(description);
+
+  document.getElementById('items').appendChild(item_element);
+}
+
+function selectNodeText(selectElement, event)
+{
+  var selection = window.getSelection();
+  if (!selection.isCollapsed)
+    return;
+  var range = document.createRange();
+  range.selectNode(selectElement);
+  selection.removeAllRanges();
+  selection.addRange(range);
+  event.stopPropagation();
+  event.preventDefault();
+}
+</script>
+</head>
+<body onload='onLoad()'>
+  <div role='main'>
+    <div id='caption' role='heading' aria-level='1'>Inspectable pages</div>
+    <hr>
+    <div id='items'>
+    </div>
+  </div>
+</body>
+</html>
+
+
+00:32:03.818 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+00:32:03.818 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 2615 ms - http://localhost:52790
+00:32:03.823 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:52790/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:52790
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+00:32:04.793 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 967.34
+1 < 200
+1 < Content-Length: 825
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:52790/devtools/page/393816CAACAD8F4504C9AF8CA5158D78",
+   "id": "393816CAACAD8F4504C9AF8CA5158D78",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:52790/devtools/page/393816CAACAD8F4504C9AF8CA5158D78"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:52790/devtools/page/4C596370390B091DF668B5478EE2F02E",
+   "id": "4C596370390B091DF668B5478EE2F02E",
+   "title": "",
+   "type": "page",
+   "url": "chrome://welcome/?variant=everywhere",
+   "webSocketDebuggerUrl": "ws://localhost:52790/devtools/page/4C596370390B091DF668B5478EE2F02E"
+} ]
+
+
+00:32:04.793 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - root frame id: 4C596370390B091DF668B5478EE2F02E
+00:32:04.928 [nioEventLoopGroup-3-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client connected
+00:32:04.933 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - >> {"method":"Target.activateTarget","params":{"targetId":"4C596370390B091DF668B5478EE2F02E"},"id":1}
+00:32:05.043 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"id":1,"result":{}}
+00:32:05.050 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - >> {"method":"Page.enable","id":2}
+00:32:07.106 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"id":2,"result":{}}
+00:32:07.170 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - >> {"method":"Runtime.enable","id":3}
+00:32:07.803 [chrome_1625157031616] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chrome_1625157031616, --disable-popup-blocking]
+00:32:09.421 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","uniqueId":"-6504068056911145473.8144222456440852057","auxData":{"isDefault":true,"type":"default","frameId":"4C596370390B091DF668B5478EE2F02E"}}}}
+00:32:09.428 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"id":3,"result":{}}
+00:32:09.453 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - >> {"method":"Target.setAutoAttach","params":{"autoAttach":true,"waitForDebuggerOnStart":false,"flatten":true},"id":4}
+00:32:09.983 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"id":4,"result":{}}
+00:32:10.008 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - >> {"method":"Browser.getWindowForTarget","params":{"targetId":"4C596370390B091DF668B5478EE2F02E"},"id":5}
+00:32:11.893 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"id":5,"result":{"windowId":1,"bounds":{"left":10,"top":10,"width":1050,"height":708,"windowState":"normal"}}}
+00:32:12.314 [chrome_1625157031616] DEBUG com.intuit.karate.shell.Command - console readers complete
+00:32:13.538 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - >> {"method":"Page.navigate","params":{"url":"https:\/\/www.pup.edu.ph\/"},"id":6}
+00:32:15.691 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"id":6,"result":{"frameId":"4C596370390B091DF668B5478EE2F02E","loaderId":"78EA0987379DA0790217D410A4769349"}}
+00:32:15.698 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Runtime.executionContextsCleared","params":{}}
+00:32:15.704 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStartedLoading","params":{"frameId":"4C596370390B091DF668B5478EE2F02E"}}
+00:32:15.878 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Runtime.executionContextsCleared","params":{}}
+00:32:15.908 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"4C596370390B091DF668B5478EE2F02E","loaderId":"78EA0987379DA0790217D410A4769349","url":"https://www.pup.edu.ph/","domainAndRegistry":"pup.edu.ph","securityOrigin":"https://www.pup.edu.ph","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+00:32:15.908 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.pup.edu.ph","name":"","uniqueId":"5076216220065674252.-6094394455432234422","auxData":{"isDefault":true,"type":"default","frameId":"4C596370390B091DF668B5478EE2F02E"}}}}
+00:32:19.236 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameAttached","params":{"frameId":"67A16A7F9A4F9817FBAA8F7B5EECB844","parentFrameId":"4C596370390B091DF668B5478EE2F02E"}}
+00:32:19.248 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStartedLoading","params":{"frameId":"67A16A7F9A4F9817FBAA8F7B5EECB844"}}
+00:32:19.716 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"67A16A7F9A4F9817FBAA8F7B5EECB844"}}
+00:32:19.737 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameDetached","params":{"frameId":"67A16A7F9A4F9817FBAA8F7B5EECB844","reason":"remove"}}
+00:32:19.737 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameAttached","params":{"frameId":"1DC19E204424D8B70F56775FC8C4DCF6","parentFrameId":"4C596370390B091DF668B5478EE2F02E","stack":{"callFrames":[{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25691},{"functionName":"domManip","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":27980},{"functionName":"append","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25580},{"functionName":"wrapAll","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":533},{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":825},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":3,"columnNumber":5346},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","l ...
+00:32:19.747 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStartedLoading","params":{"frameId":"1DC19E204424D8B70F56775FC8C4DCF6"}}
+00:32:19.843 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"1DC19E204424D8B70F56775FC8C4DCF6"}}
+00:32:19.873 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameDetached","params":{"frameId":"1DC19E204424D8B70F56775FC8C4DCF6","reason":"remove"}}
+00:32:19.883 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameAttached","params":{"frameId":"B495831073C19A07C11C5DEB78E7D289","parentFrameId":"4C596370390B091DF668B5478EE2F02E","stack":{"callFrames":[{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25691},{"functionName":"domManip","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":27980},{"functionName":"append","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":4,"columnNumber":25580},{"functionName":"wrapAll","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":533},{"functionName":"","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":5,"columnNumber":723},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","lineNumber":3,"columnNumber":5346},{"functionName":"each","scriptId":"12","url":"https://code.jquery.com/jquery-1.10.2.min.js","l ...
+00:32:19.893 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStartedLoading","params":{"frameId":"B495831073C19A07C11C5DEB78E7D289"}}
+00:32:20.074 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.domContentEventFired","params":{"timestamp":1780023.148733}}
+00:32:25.214 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Target.attachedToTarget","params":{"sessionId":"8A68B507B9F4D6403EBBC15251C30A0C","targetInfo":{"targetId":"B495831073C19A07C11C5DEB78E7D289","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"4F9177071F394509E5B903FE2D436D02"},"waitingForDebugger":false}}
+00:32:33.288 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"B495831073C19A07C11C5DEB78E7D289"}}
+00:32:33.358 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameDetached","params":{"frameId":"B495831073C19A07C11C5DEB78E7D289","reason":"swap"}}
+00:32:33.388 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - >> {"method":"Runtime.evaluate","params":{"expression":"document.evaluate(\"\/\/a[normalize-space(text())='Alumni']\", document, null, 9, null).singleNodeValue.click()","returnByValue":true},"id":7}
+00:32:34.240 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"4C596370390B091DF668B5478EE2F02E","delay":0,"reason":"anchorClick","url":"https://www.pup.edu.ph/#"}}
+00:32:34.448 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.navigatedWithinDocument","params":{"frameId":"4C596370390B091DF668B5478EE2F02E","url":"https://www.pup.edu.ph/#"}}
+00:32:34.448 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"4C596370390B091DF668B5478EE2F02E"}}
+00:32:34.453 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"id":7,"result":{"result":{"type":"undefined"}}}
+00:32:34.468 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - >> {"method":"Runtime.evaluate","params":{"expression":"document.evaluate(\"\/\/a[normalize-space(text())='Alumni Relations']\", document, null, 9, null).singleNodeValue.click()","returnByValue":true},"id":8}
+00:32:34.563 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameAttached","params":{"frameId":"9F5A367BA24DD99620F96CE1EF3219F9","parentFrameId":"4C596370390B091DF668B5478EE2F02E","stack":{"callFrames":[{"functionName":"","scriptId":"19","url":"https://www.pup.edu.ph/resources/gwt/footer.js?go=1","lineNumber":15,"columnNumber":13},{"functionName":"","scriptId":"19","url":"https://www.pup.edu.ph/resources/gwt/footer.js?go=1","lineNumber":26,"columnNumber":1}]}}}
+00:32:34.573 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStartedLoading","params":{"frameId":"9F5A367BA24DD99620F96CE1EF3219F9"}}
+00:32:34.758 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"https://www.pup.edu.ph","name":"","uniqueId":"-6118093683907170134.-4157391846420021046","auxData":{"isDefault":true,"type":"default","frameId":"9F5A367BA24DD99620F96CE1EF3219F9"}}}}
+00:32:34.833 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameAttached","params":{"frameId":"326497B2406D3A5F889EFDA6A987DCAF","parentFrameId":"4C596370390B091DF668B5478EE2F02E","stack":{"callFrames":[{"functionName":"load","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":36889},{"functionName":"load","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":22027},{"functionName":"","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":17389},{"functionName":"o","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":65857},{"functionName":"","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":17374},{"functionName":"i","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":627},{"functionName":"","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":2762},{"functionName":" ...
+00:32:34.850 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStartedLoading","params":{"frameId":"326497B2406D3A5F889EFDA6A987DCAF"}}
+00:32:35.221 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"4C596370390B091DF668B5478EE2F02E","delay":0,"reason":"anchorClick","url":"https://www.pup.edu.ph/alumni/"}}
+00:32:35.223 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameRequestedNavigation","params":{"frameId":"4C596370390B091DF668B5478EE2F02E","reason":"anchorClick","url":"https://www.pup.edu.ph/alumni/","disposition":"currentTab"}}
+00:32:35.241 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"4C596370390B091DF668B5478EE2F02E"}}
+00:32:35.253 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"id":8,"result":{"result":{"type":"undefined"}}}
+00:32:35.454 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #1
+00:32:35.478 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"9F5A367BA24DD99620F96CE1EF3219F9","parentId":"4C596370390B091DF668B5478EE2F02E","loaderId":"3934BD13CB6D3BBAB53502F012D3E937","name":"footer-gwt-frame","url":"https://www.pup.edu.ph/resources/gwt/footer-source","domainAndRegistry":"pup.edu.ph","securityOrigin":"https://www.pup.edu.ph","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+00:32:35.825 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Target.attachedToTarget","params":{"sessionId":"B7A26926D2201EE681B528E712129C83","targetInfo":{"targetId":"326497B2406D3A5F889EFDA6A987DCAF","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"4F9177071F394509E5B903FE2D436D02"},"waitingForDebugger":false}}
+00:32:36.441 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"9F5A367BA24DD99620F96CE1EF3219F9"}}
+00:32:36.709 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"326497B2406D3A5F889EFDA6A987DCAF"}}
+00:32:36.733 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameDetached","params":{"frameId":"326497B2406D3A5F889EFDA6A987DCAF","reason":"swap"}}
+00:32:38.575 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #2
+00:32:39.432 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Runtime.consoleAPICalled","params":{"type":"info","args":[{"type":"string","value":"You may have been affected by an update to settings in embedded timelines. See https://twittercommunity.com/t/deprecating-widget-settings/102295."},{"type":"object","subtype":"node","className":"HTMLAnchorElement","description":"a.twitter-timeline","objectId":"-1384158089726272338.1.1","preview":{"type":"object","subtype":"node","description":"a.twitter-timeline","overflow":true,"properties":[{"name":"target","type":"string","value":""},{"name":"download","type":"string","value":""},{"name":"ping","type":"string","value":""},{"name":"rel","type":"string","value":""},{"name":"relList","type":"object","value":"DOMTokenList(0)","subtype":"array"}]}}],"executionContextId":1,"timestamp":1.625157159070883e+12,"stackTrace":{"callFrames":[{"functionName":"l","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":8977},{"functionName":"publicLog","scriptId":"20","url":"https://platform. ...
+00:32:41.348 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameAttached","params":{"frameId":"799C5503B47C1186F6D2A682D7074A74","parentFrameId":"4C596370390B091DF668B5478EE2F02E","stack":{"callFrames":[{"functionName":"_insertionStrategy","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":20228},{"functionName":"","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":7079},{"functionName":"","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":0,"columnNumber":11734},{"functionName":"o.run","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":24025},{"functionName":"o.flush","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":23585},{"functionName":"o.runBatch","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"columnNumber":23731},{"functionName":"","scriptId":"20","url":"https://platform.twitter.com/widgets.js","lineNumber":7,"column ...
+00:32:41.353 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStartedLoading","params":{"frameId":"799C5503B47C1186F6D2A682D7074A74"}}
+00:32:41.373 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"799C5503B47C1186F6D2A682D7074A74","parentId":"4C596370390B091DF668B5478EE2F02E","loaderId":"E0996CFFD31C0E505F3E0C8C265A2484","name":"twitter-widget-0","url":"about:blank","domainAndRegistry":"","securityOrigin":"://","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":["SharedArrayBuffersTransferAllowed"]}}}
+00:32:41.375 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":3,"origin":"https://www.pup.edu.ph","name":"","uniqueId":"3407830692153755986.-3031858950825365270","auxData":{"isDefault":true,"type":"default","frameId":"799C5503B47C1186F6D2A682D7074A74"}}}}
+00:32:41.375 [nioEventLoopGroup-3-1] DEBUG c.i.k.driver.chrome_1625157113051 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"799C5503B47C1186F6D2A682D7074A74"}}
+00:32:41.588 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #3
+00:32:44.603 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - waitForUrl: failed after 3 retries and 9147 milliseconds
+00:32:44.608 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1625157113051 - >> {"method":"Target.closeTarget","params":{"targetId":"4C596370390B091DF668B5478EE2F02E"},"id":9}
+00:32:44.613 [nioEventLoopGroup-3-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client disconnected
+00:32:44.618 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1625157113051
+00:32:46.508 [chrome_1625157113051] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=52790, --no-first-run, --user-data-dir=C:\Users\User\IdeaProjects\Automation_Testing\target\chrome_1625157113051, --disable-popup-blocking]
+00:32:50.628 [chrome_1625157113051] DEBUG com.intuit.karate.shell.Command - console readers complete
+00:33:11.581 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/ricamara3_1/ricamara3_1.feature

@@ -37,9 +37,9 @@
           
 <div class="nav-count">
             
-<div class="bg-success" id="nav-pass">1</div>
+<div class="bg-success" id="nav-pass">0</div>
             
-<div class="bg-danger" id="nav-fail">0</div>
+<div class="bg-danger" id="nav-fail">1</div>
           
 </div>
         
@@ -47,10 +47,10 @@
         
 <div id="nav-type">Scenarios</div>         
         
-<div id="nav-date">2021-06-28 04:45:31 PM</div>        
+<div id="nav-date">2021-07-01 11:28:43 PM</div>        
       
 <div class="nav-container">
-<div class="nav-item passed">
+<div class="nav-item failed">
 <a href="#[1:4]">[1:4] View About Page </a>
 </div>
 </div>
@@ -69,43 +69,47 @@
 </div>
 <span class="scenario-keyword">Scenario: [1:4]</span><span class="scenario-name">View About Page </span>
 </div>
-<div class="scenario-time passed">ms: 15744</div>
+<div class="scenario-time failed">ms: 127288</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="1">
 <div class="step-ref passed">1</div>
 <div class="step-cell passed">* configure driver = { type: 'msedgedriver', executable: 'src/test/java/examples/montante_3_1/msedgedriver.exe', webDriverSession: { capabilities: { browserName: 'edge' } } }</div>
 </div>
-<div class="time-cell passed">0</div>
+<div class="time-cell passed">1</div>
 </div>
-<div class="preformatted" data-parent="1">16:45:13.474 karate.env system property was:</div>
+<div class="preformatted" data-parent="1">23:26:20.207 karate.env system property was:</div>
 <div class="step-row">
 <div class="step-container" id="2">
-<div class="step-ref passed">2</div>
-<div class="step-cell passed">* driver 'https://www.pup.edu.ph'</div>
+<div class="step-ref failed">2</div>
+<div class="step-cell failed">* driver 'https://www.pup.edu.ph'</div>
 </div>
-<div class="time-cell passed">10703</div>
+<div class="time-cell failed">127287</div>
 </div>
+<div class="preformatted" data-parent="2">23:28:30.734 driver config / start failed: 
+java.net.SocketTimeoutException: Read timed out, options: {type=msedgedriver, executable=src/test/java/examples/montante_3_1/msedgedriver.exe, webDriverSession={capabilities={browserName=edge}}, target=null}
+About_Page.feature:6 - driver config / start failed: 
+java.net.SocketTimeoutException: Read timed out, options: {type=msedgedriver, executable=src/test/java/examples/montante_3_1/msedgedriver.exe, webDriverSession={capabilities={browserName=edge}}, target=null}</div>
 <div class="step-row">
 <div class="step-container" id="3">
-<div class="step-ref passed">3</div>
-<div class="step-cell passed">And mouse().move('{a}About PUP').go()</div>
+<div class="step-ref skipped">3</div>
+<div class="step-cell skipped">And mouse().move('{a}About PUP').go()</div>
 </div>
-<div class="time-cell passed">204</div>
+<div class="time-cell skipped">0</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="4">
-<div class="step-ref passed">4</div>
-<div class="step-cell passed">And click('{a}University Profile')</div>
+<div class="step-ref skipped">4</div>
+<div class="step-cell skipped">And click('{a}University Profile')</div>
 </div>
-<div class="time-cell passed">4807</div>
+<div class="time-cell skipped">0</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="5">
-<div class="step-ref passed">5</div>
-<div class="step-cell passed">Then waitForUrl('https://www.pup.edu.ph/about')</div>
+<div class="step-ref skipped">5</div>
+<div class="step-cell skipped">Then waitForUrl('https://www.pup.edu.ph/about')</div>
 </div>
-<div class="time-cell passed">29</div>
+<div class="time-cell skipped">0</div>
 </div>
 </div>
 </div>

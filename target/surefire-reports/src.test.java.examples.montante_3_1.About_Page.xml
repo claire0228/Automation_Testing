@@ -1,9 +1,15 @@
-<testsuite failures="0" name="src/test/java/examples/montante_3_1/About_Page.feature" skipped="0" tests="1" time="15.744005">
-  <testcase classname="src.test.java.examples.montante_3_1.About_Page" name="View About Page" time="15.744005">
-    <system-out>* configure driver = { type: 'msedgedriver', executable: 'src/test/java/examples/montante_3_1/msedgedriver.exe', webDriverSession: { capabilities: { browserName: 'edge' } } } . passed
-* driver 'https://www.pup.edu.ph' ......................................... passed
-And mouse().move('{a}About PUP').go() ..................................... passed
-And click('{a}University Profile') ........................................ passed
-Then waitForUrl('https://www.pup.edu.ph/about') ........................... passed</system-out>
+<testsuite failures="1" name="src/test/java/examples/montante_3_1/About_Page.feature" skipped="0" tests="1" time="127.287825">
+  <testcase classname="src.test.java.examples.montante_3_1.About_Page" name="View About Page" time="127.287825">
+    <failure message="About_Page.feature:6 - driver config / start failed: &#10;java.net.SocketTimeoutException: Read timed out, options: {type=msedgedriver, executable=src/test/java/examples/montante_3_1/msedgedriver.exe, webDriverSession={capabilities={browserName=edge}}, target=null}">* configure driver = { type: 'msedgedriver', executable: 'src/test/java/examples/montante_3_1/msedgedriver.exe', webDriverSession: { capabilities: { browserName: 'edge' } } } . passed
+* driver 'https://www.pup.edu.ph' ......................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: About_Page.feature:6 - driver config / start failed: 
+java.net.SocketTimeoutException: Read timed out, options: {type=msedgedriver, executable=src/test/java/examples/montante_3_1/msedgedriver.exe, webDriverSession={capabilities={browserName=edge}}, target=null}&#13;
+	at ✽.* driver 'https://www.pup.edu.ph' (About_Page.feature:6)&#13;
+
+And mouse().move('{a}About PUP').go() ..................................... skipped
+And click('{a}University Profile') ........................................ skipped
+Then waitForUrl('https://www.pup.edu.ph/about') ........................... skipped</failure>
   </testcase>
 </testsuite>

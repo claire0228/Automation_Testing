@@ -1,0 +1,87 @@
+<testsuite failures="0" name="src/test/java/examples/torres_3_1/pup_test.feature" skipped="0" tests="5" time="92.359464">
+  <testcase classname="src.test.java.examples.torres_3_1.pup_test" name="About Us - PUP University Profile" time="38.379457">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}University Profile') ....................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/') .......................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.torres_3_1.pup_test" name="About Us - PUP Annual Reports" time="10.522959">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}University Profile') ....................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/') .......................... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}Annual Reports') ........................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/annualreports') ............. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.torres_3_1.pup_test" name="About Us - PUP University Code" time="13.958496">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}University Profile') ....................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/') .......................... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}Annual Reports') ........................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/annualreports') ............. passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}University Code') .......................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/code') ...................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.torres_3_1.pup_test" name="About Us - PUP Vision and Mission" time="9.786689">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}University Profile') ....................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/') .......................... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}Annual Reports') ........................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/annualreports') ............. passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}University Code') .......................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/code') ...................... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}Vision and Mission') ....................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/vm') ........................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.torres_3_1.pup_test" name="About Us - PUP History" time="19.711863">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}University Profile') ....................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/') .......................... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}Annual Reports') ........................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/annualreports') ............. passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}University Code') .......................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/code') ...................... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}Vision and Mission') ....................................... passed
+Then waitForUrl('https://www.pup.edu.ph/about/vm') ........................ passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}About PUP') ................................................. passed
+When click('{a}History') .................................................. passed
+Then waitForUrl('https://www.pup.edu.ph/about/history') ................... passed</system-out>
+  </testcase>
+</testsuite>
